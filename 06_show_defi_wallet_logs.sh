@@ -1,0 +1,1 @@
+docker logs defi_wallet

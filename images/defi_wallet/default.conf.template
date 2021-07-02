@@ -1,0 +1,26 @@
+server {
+	listen 5000;
+	
+	location / {
+    root /usr/share/nginx/html/;
+		index index.html;
+		try_files $uri /index.html;	
+	}
+}
+
+server {
+	listen 5001;
+
+	location / {
+		if ($request_method = OPTIONS ) {
+			add_header Access-Control-Allow-Methods 'POST, GET, OPTIONS, DELETE';
+			add_header Access-Control-Max-Age 86400;
+			add_header Access-Control-Allow-Headers $http_access_control_request_headers;
+			add_header Access-Control-Allow-Origin $http_origin;
+			return 204;
+		}
+		proxy_set_header Authorization "Basic ${RPC_AUTH64}";
+		proxy_pass http://${RPC_HOST};		
+		add_header Access-Control-Allow-Origin $http_origin;
+	}
+}
