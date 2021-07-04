@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=DeFi Wallet
+Comment=start DeFi Wallet in browser
+Icon=/usr/share/pixmaps/defiChainLogo1.png
+Exec=chromium-browser http://localhost:5000
+Type=Application
+Encoding=UTF-8
+Terminal=false
+Categories=None;
+StartupNotify=true
+Comment[de_CH]=DeFi Wallet
+Path=/home/pi/definode

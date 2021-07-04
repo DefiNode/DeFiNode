@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=DeFiNode Raspi Menu
+Comment=My application which does this
+Icon=/usr/share/pixmaps/defiChainLogo3.png
+Exec=lxterminal -t "Raspi DeFiNode Menu" -e sudo sh 00_definode.sh
+Type=Application
+Encoding=UTF-8
+Terminal=false
+Categories=None;
+StartupNotify=true
+Comment[de_CH]=DeFi Node Menu
+Path=/home/pi/definode
