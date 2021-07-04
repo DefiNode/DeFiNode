@@ -21,8 +21,8 @@ SNAPSHOT=$(tail -n 1 index.txt)
 sudo rm index.txt
 mkdir defichain
 cd defichain
-#sudo curl -L $ADDRESS$SNAPSHOT > snapshot.zip
-#sudo unzip snapshot.zip
+sudo curl -L $ADDRESS$SNAPSHOT > snapshot.zip
+sudo unzip snapshot.zip
 
 cd ..
 
