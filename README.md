@@ -19,7 +19,7 @@
 * **100% open source**
 
 ## Hardware Needed
-Estimated cost around 50-100 USD - based on shops and location.
+Estimated cost around 80-120 USD - based on shops and location.
 
 (IMAGES)
 
@@ -29,7 +29,7 @@ Estimated cost around 50-100 USD - based on shops and location.
 * Raspberry 4 4GB (or 8GB) [amazon link](https://www.amazon.com/-/de/dp/B07TC2BK1X)
 * Power Supply US - USB-C, 5V, >=3A [amazon link](https://www.amazon.com/-/de/dp/B07TSDJSQH)
 * Power Supply EU - USB-C, 5V, >=3A [amazon link](https://www.amazon.de/Jun_Electronic-Ladegerät-Netzteil-Schalter-Raspberry/dp/B07TYYV8GF/)
-* 256GB - Samsung FIT Plus Flash Drive[amazon link](https://www.amazon.com/-/de/dp/B07D7Q41PM/) *min. 128GB version*
+* 256GB - Samsung FIT Plus Flash Drive [amazon link](https://www.amazon.com/-/de/dp/B07D7Q41PM/) *min. 128GB version*
 * Heatsink Case for RPi4 : [amazon link](https://www.amazon.com/-/de/dp/B07W664LNN/)
 * HDMI to micro HDMI adapter [amazon link](https://www.amazon.com/-/de/dp/B07RZX9MCS/) 
 * Depending on your monitor input, you will need a HDMI cable or a HDMI -> (DFI, VGA...) adapter
