@@ -110,11 +110,16 @@ On a Windows PC, look for "Remote Desktop Connection".
 Windows Example (others should be similar):
 
 * Open Remote Desktop Connection (press windows + q -> enter "remote").
+
 ![2021-07-08 12_25_19-Remotedesktopverbindung](https://user-images.githubusercontent.com/84664789/124913511-7d761300-dfef-11eb-8e59-e18ab5d9d797.png)
+
 * Enter the DeFiNode IP address you've written down -> press enter
+
 ![2021-07-08 12_26_20-192 168 0 236 - Remotedesktopverbindung](https://user-images.githubusercontent.com/84664789/124913610-9f6f9580-dfef-11eb-912c-6840429e3e2e.png)
+
 * Enter "pi" as username and your DeFiNode password you've written down -> press OK
 * You should now see the DefiNode desktop on your PC / Mac
+
 ![2021-07-08 12_26_52-192 168 0 236 - Remotedesktopverbindung](https://user-images.githubusercontent.com/84664789/124913765-d04fca80-dfef-11eb-92b6-4a1d73fdaaa9.png)
 
 🎉 Congratulations! You've done a very good Job so far! 🎉
