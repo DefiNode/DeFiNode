@@ -81,6 +81,8 @@ Follow the screen and setup your language, Wi-Fi (it is recommended to use a Eth
 
 ## Install remote Desktop to control your DeFiNode from your PC / Mac. (Not mandatory but very convenient)
 
+As an alternative you can use the build in VNC tool: [VNC](https://buyzero.de/blogs/news/wie-kann-ich-realvnc-mit-einem-raspberry-pi-nutzen-remote-desktop)
+
 The next two steps are not mandatory and you can do the initial installation with the monitor, mouse and keyboard. But it is very convenient to use remote Desktop to work with the DeFiNode and apply future updates.
 
 * Open the Terminal by clicking on it
