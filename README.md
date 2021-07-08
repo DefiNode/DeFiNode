@@ -40,12 +40,14 @@ Estimated cost around 80-120 USD - based on shops and location.
 When you have all parts you need to:
 
 * Assemble the heatsinks on the Raspberry (follow the instructions in package).
-* Plug in the network cable.
+* Connect the Ethernet cable to you Raspberry Pi and router (check your DHCP router config if needed)
+* Connect the micro HDMI adapter + cable to your monitor input
+* Connect mouse and keyboard to the Raspberry Pi USB ports
 * **Do not switch it on yet** (We need to prepare the Samsung FIT Plus Flash Drive on your PC/MAC first)
 
-Now your DeFiNode should look like this:
+Now your basic DeFiNode should look like this:
 
-(IMAGE)
+![20210708_120318](https://user-images.githubusercontent.com/84664789/124910008-62a19f80-dfeb-11eb-8da7-115084dfdc88.jpg)
 
 ## Downloading the official Raspberry Pi OS and preparation of the Samsung FIT Plus Flash Drive
 
@@ -65,18 +67,60 @@ Now your DeFiNode should look like this:
 ## Boot your DeFiNode
 
 * Insert the Samsung FIT Plus Flash Drive into the Raspberry Pi (blue connector)
-* Connect the Ethernet cable to you Raspberry Pi and router (check your DHCP router config if needed)
-* Connect the micro HDMI adapter + cable to your monitor input
-* Connect mouse and keyboard to the Raspberry Pi USB ports
 * Use the switch to switch on the Raspberry Pi (LEDs should light up)
 
-(IMAGE)
 
+Welcome to Raspberry Pi OS! 
+You should see this screen on your monitor.
 
-...
+![newraspberry](https://user-images.githubusercontent.com/84664789/124910238-a8f6fe80-dfeb-11eb-9aee-025041958be8.png)
+
+Follow the screen and setup your language, Wi-Fi (it is recommended to use a Ethernet connection for stability) an password. It is important you write this password down. It will be needed later on.
+
+![password](https://user-images.githubusercontent.com/84664789/124910776-3fc3bb00-dfec-11eb-9eb1-a4d61138c703.png)
+
+## Install remote Desktop to control your DeFiNode from your PC / Mac. (Not mandatory but very convenient)
+
+The next two steps are not mandatory and you can do the initial installation with the monitor, mouse and keyboard. But it is very convenient to use remote Desktop to work with the DeFiNode and apply future updates.
+
+* Open the Terminal by clicking on it
+
+![grafik](https://user-images.githubusercontent.com/84664789/124911359-f0ca5580-dfec-11eb-86e1-51fa5253c58b.png)
+
+* Enter: this command and press ENTER
+```
+sudo apt-get install xrdp
+```
+![grafik](https://user-images.githubusercontent.com/84664789/124911777-7221e800-dfed-11eb-9d20-470347472e2e.png)
+![grafik](https://user-images.githubusercontent.com/84664789/124912264-0724e100-dfee-11eb-8286-6b9b34bd1eef.png)
+
+* Write down your the local IP Address by moving the mouse cursor on the connection icon in the top right corner
+
+![grafik](https://user-images.githubusercontent.com/84664789/124912506-52d78a80-dfee-11eb-84d5-1c718df7db9e.png)
+
+You can fix this address in your individual router setting so it will not change. Typically you don’t have to do it.
+
+## Connect to your DeFiNode from your PC / Mac (Not mandatory but very convenient)
+
+On a Windows PC, look for "Remote Desktop Connection". 
+
+* Mac app: microsoft-remote-desktop
+* Linux app: rdesktop
+
+Windows Example (others should be similar):
+
+* Open Remote Desktop Connection (press windows + q -> enter "remote").
+![2021-07-08 12_25_19-Remotedesktopverbindung](https://user-images.githubusercontent.com/84664789/124913511-7d761300-dfef-11eb-8e59-e18ab5d9d797.png)
+* Enter the DeFiNode IP address you've written down -> press enter
+![2021-07-08 12_26_20-192 168 0 236 - Remotedesktopverbindung](https://user-images.githubusercontent.com/84664789/124913610-9f6f9580-dfef-11eb-912c-6840429e3e2e.png)
+* Enter "pi" as username and your DeFiNode password you've written down -> press OK
+* You should now see the DefiNode desktop on your PC / Mac
+![2021-07-08 12_26_52-192 168 0 236 - Remotedesktopverbindung](https://user-images.githubusercontent.com/84664789/124913765-d04fca80-dfef-11eb-92b6-4a1d73fdaaa9.png)
+
+🎉 Congratulations! You've done a very good Job so far! 🎉
 
 <!--
-**DefiNode/DeFiNode** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**DefiNode/DeFiNode** is a ✨ _special_ ✨ repository because it’s `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
