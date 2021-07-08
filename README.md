@@ -131,6 +131,7 @@ Windows Example (others should be similar):
 ## Installing and running Defichain
 
 * Open a new terminal Terminal
+
 ![grafik](https://user-images.githubusercontent.com/84664789/124911359-f0ca5580-dfec-11eb-86e1-51fa5253c58b.png)
 
 * Enter: this command and press ENTER
