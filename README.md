@@ -118,6 +118,7 @@ Windows Example (others should be similar):
 ![2021-07-08 12_26_52-192 168 0 236 - Remotedesktopverbindung](https://user-images.githubusercontent.com/84664789/124913765-d04fca80-dfef-11eb-92b6-4a1d73fdaaa9.png)
 
 🎉 Congratulations! You've done a very good Job so far! 🎉
+🎉 You can now diconnect the external Monitor, mouse and keyboard and proceed work with the Remote Desktop 🎉
 
 <!--
 **DefiNode/DeFiNode** is a ✨ _special_ ✨ repository because it’s `README.md` (this file) appears on your GitHub profile.
