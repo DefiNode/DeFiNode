@@ -128,6 +128,30 @@ Windows Example (others should be similar):
 
 🎉 You can now diconnect the external Monitor, mouse and keyboard and proceed work with the Remote Desktop 🎉
 
+## Installing and running Defichain
+
+* Open a new terminal Terminal
+![grafik](https://user-images.githubusercontent.com/84664789/124911359-f0ca5580-dfec-11eb-86e1-51fa5253c58b.png)
+
+* Enter: this command and press ENTER
+```
+git clone http://github.com/definode/definode && cd definode && sudo sh definode.sh
+```
+
+🎇 #Watch the magic happening (for ~3h) 🎇
+
+I know its long but this is really necessary to ensure you build the official software from DeFiChain on your DeFiNode.
+
+There may be some orange messages appear in the terminal, but this is nothing to worry about.
+
+When everything is finished and running you will get the message "Please open your browser http://localhost:5000"
+
+* Open the chromium browser on your DeFinode and enter http://localhost:5000 -> press enter
+
+* You can also use your PC/Mac/Mobile phone browser (when in same LAN) and enter the IP Address + Port to remote control the Node from other devices. I.e. 192.168.0.236:5000 -> press enter. You can bookmark this in your browser.
+
+🎉 Congratulations! You've successfully installed the Defichain software on your DeFiNode 🎉
+
 <!--
 **DefiNode/DeFiNode** is a ✨ _special_ ✨ repository because it’s `README.md` (this file) appears on your GitHub profile.
 
