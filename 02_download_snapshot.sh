@@ -8,7 +8,8 @@ ADDRESS=$(echo $ADDRESS | sed "s|.*SNAPSHOT_EU\(.*\)SNAPSHOT_INDEX.*|\\1|"| awk 
 INDEX=$(grep "SNAPSHOT_INDEX" snapshot.ts | awk -F\' '{print $2}')
 sudo rm snapshot.ts
 sudo curl -L $ADDRESS$INDEX > index.txt
-SNAPSHOT=$(tail -n 1 index.txt)
+SNAPSHOT=$(tail -n 2 index.txt | head -n 1)
+echo $SNAPSHOT
 sudo rm index.txt
 mkdir defichain
 cd defichain
