@@ -55,6 +55,11 @@ do_07_stop_definode() {
 	sudo sh 07_stop_definode.sh
 }
 
+do_08_repair_definode() {
+	echo 08_repair_definode
+	sudo sh 08_repair_definode.sh
+}
+
 do_finish() {
 	echo Goodbye
 }
@@ -70,7 +75,8 @@ OPTION=$(whiptail --title "DefiNode" --menu "Choose your option" 15 60 7 \
 "4" "Run definode" \
 "5" "Show DefiChain logs" \
 "6" "Show Wallet logs" \
-"7" "Stop definode" 3>&1 1>&2 2>&3)
+"7" "Stop definode" \
+"8" "Repair definode" 3>&1 1>&2 2>&3)
 
 RET=$?
 if [ $RET -eq 1 ]; then
@@ -84,6 +90,7 @@ elif [ $RET -eq 0 ]; then
 		5) do_05_show_defi_chain_logs ;;
 		6) do_06_show_defi_wallet_logs ;;
 		7) do_07_stop_definode ;;
+		8) do_08_repair_definode ;;
 		*) whiptail --msgbox "Programmer error: unrecognized option" 20 60 1 ;;
 	esac || whiptail --msgbox "There was an error running option $OPTION" 20 60 1
 else
