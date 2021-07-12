@@ -17,18 +17,11 @@ sudo curl -L $ADDRESS$SNAPSHOT > snapshot.zip
 sudo unzip snapshot.zip
 
 end=$(date +%s)
-
-echo "elapsed time:" $((end-$start)) " seconds"
-
-hold=' '
-echo "Press 'SPACE' to return to menu"
-tty_state=$(stty -g)
-stty -icanon
-until [ -z "${hold#$in}" ] ; do
-    in=$(dd bs=1 count=1 </dev/tty 2>/dev/null)
-done
-stty "$tty_state"
-
-cd ..
-sudo sh 00_definode.sh
+echo ""
+echo ""
+echo "**********************************************"
+echo "***   Elapsed Time:" $((end-$start)) " seconds"
+echo "**********************************************"
+echo ""
+echo ""
 

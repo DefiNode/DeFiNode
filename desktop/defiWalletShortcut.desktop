@@ -9,4 +9,4 @@ Terminal=false
 Categories=None;
 StartupNotify=true
 Comment[de_CH]=DeFi Wallet
-Path=/home/pi/definode
+Path=$DEFI_HOME

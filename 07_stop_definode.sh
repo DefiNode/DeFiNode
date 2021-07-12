@@ -5,4 +5,8 @@ docker rm defi_wallet
 docker stop defi_node
 docker rm defi_node
 
-rm /home/pi/Desktop/defiWalletShortcut.desktop
+echo definode stopped
+
+## remove desktop shortcut
+cd /home/pi/Desktop
+rm ./defiWalletShortcut.desktop
