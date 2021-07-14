@@ -64,22 +64,15 @@ do_04_run_definode() {
 	sudo -E sh 04_run_definode.sh
 }
 
-do_05_show_defi_chain_logs() {
-	echo 05_show_defi_chain_logs
-	sudo -E sh 05_show_defi_chain_logs.sh
-}
-
-do_06_show_defi_wallet_logs() {
-	echo 06_show_defi_wallet_logs
-	sudo -E sh 06_show_defi_wallet_logs.sh
-}
-
-do_07_stop_definode() {
-	echo 07_stop_definode
+do_05_stop_definode() {
+	echo 05_stop_definode
 	sudo -E sh 07_stop_definode.sh
 	### wait for SPACE key pressed
 	hold=' '
+	echo""
+	echo""
 	echo "Press 'SPACE' to return to menu"
+	echo""
 	tty_state=$(stty -g)
 	stty -icanon
 	until [ -z "${hold#$in}" ] ; do
@@ -91,12 +84,15 @@ do_07_stop_definode() {
 	do_show_menu
 }
 
-do_08_repair_definode() {
-	echo 08_repair_definode
+do_06_repair_definode() {
+	echo 06_repair_definode
 	sudo -E sh 08_repair_definode.sh
 	### wait for SPACE key pressed
 	hold=' '
+	echo""
+	echo""
 	echo "Press 'SPACE' to return to menu"
+	echo""
 	tty_state=$(stty -g)
 	stty -icanon
 	until [ -z "${hold#$in}" ] ; do
@@ -108,12 +104,15 @@ do_08_repair_definode() {
 	do_show_menu
 }
 
-do_09_backup_defiwallet() {
-	echo 09_backup_defiwallet
+do_07_backup_defiwallet() {
+	echo 07_backup_defiwallet
 	sudo -E sh 09_backup_defiwallet.sh
 	### wait for SPACE key pressed
 	hold=' '
+	echo""
+	echo""
 	echo "Press 'SPACE' to return to menu"
+	echo""
 	tty_state=$(stty -g)
 	stty -icanon
 	until [ -z "${hold#$in}" ] ; do
@@ -123,11 +122,40 @@ do_09_backup_defiwallet() {
 	#####
 	
 	do_show_menu
+}
+
+do_08_show_defi_chain_logs() {
+	echo 08_show_defi_chain_logs
+	sudo -E sh 05_show_defi_chain_logs.sh
+}
+
+do_09_show_defi_wallet_logs() {
+	echo 09_show_defi_wallet_logs
+	sudo -E sh 06_show_defi_wallet_logs.sh
 }
 
 do_10_init_defihome() {
 	echo 10_init_defihome
 	sudo -E sh 10_init_defihome.sh
+	### wait for SPACE key pressed
+	hold=' '
+	echo""
+	echo""
+	echo "********************************************************************************"
+	echo "DeFi Home is now set to: "$(dirname "$(realpath $0)")
+	echo "                                                                                "
+	echo "For the changes to the DeFi Home directory to take effect, please log out and in"
+	echo "again."
+	echo "********************************************************************************"
+	echo""
+	echo "Press 'SPACE' to go on"
+	tty_state=$(stty -g)
+	stty -icanon
+	until [ -z "${hold#$in}" ] ; do
+	    in=$(dd bs=1 count=1 </dev/tty 2>/dev/null)
+	done
+	stty "$tty_state"
+	#####
 }
 
 do_finish() {
@@ -137,17 +165,18 @@ do_finish() {
 #########################################Start########################################################
 
 do_show_menu() {
-	OPTION=$(whiptail --title "DeFiNode" --menu "Choose your option" 18 60 10 \
+	OPTION=$(whiptail --title "DeFiNode: "$(dirname "$(realpath $0)") --menu "Choose your option" 20 60 10 \
 	"1" "System preparation with reboot" \
 	"2" "Download Snapshot (5 min)" \
 	"3" "Build chain and app (2.5 hours)" \
 	"4" "Run DeFi Node" \
-	"5" "Show Defi Chain logs" \
-	"6" "Show Wallet logs" \
-	"7" "Stop DeFi Node" \
-	"8" "Repair DeFi Node" \
-	"9" "Backup DeFi Wallet" \
-	"10" "Initialize DeFi Home with logout" 3>&1 1>&2 2>&3)
+	"5" "Stop DeFi Node" \
+	"6" "Repair DeFi Node" \
+	"7" "Backup DeFi Wallet" \
+	""  "=================================" \
+	"8" "Show Defi Chain logs" \
+	"9" "Show Wallet logs" \
+	"10" "Set DeFi Home" 3>&1 1>&2 2>&3)
 
 	RET=$?
 	if [ $RET -eq 1 ]; then
@@ -158,11 +187,11 @@ do_show_menu() {
 			2) do_02_download_snapshot ;;
 			3) do_03_build_images ;;
 			4) do_04_run_definode ;;
-			5) do_05_show_defi_chain_logs ;;
-			6) do_06_show_defi_wallet_logs ;;
-			7) do_07_stop_definode ;;
-			8) do_08_repair_definode ;;
-			9) do_09_backup_defiwallet ;;
+			5) do_05_stop_definode ;;
+			6) do_06_repair_definode ;;
+			7) do_07_backup_defiwallet ;;
+			8) do_08_show_defi_chain_logs ;;
+			9) do_09_show_defi_wallet_logs ;;
 			10) do_10_init_defihome ;;
 			*) whiptail --msgbox "Programmer error: unrecognized option" 20 60 1 ;;
 		esac || whiptail --msgbox "There was an error running option $OPTION" 20 60 1
