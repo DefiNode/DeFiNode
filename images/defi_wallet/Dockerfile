@@ -1,3 +1,5 @@
+#Special thanks to wakago749. Great benefit for the community.
+
 FROM node:current as builder
 
 ARG BUILD_VERSION
