@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=LED Rainbow
+Comment=start LED Ring rainbow
+Icon=/usr/share/pixmaps/defiChainLogo1.png
+Exec=sudo python3 /home/pi/definode_ledring/led_rainbow.py
+Type=Application
+Encoding=UTF-8
+Terminal=true
+Categories=None;
+StartupNotify=false
+Comment[de_CH]=DeFiNode LED ring
+Path=/home/pi/definode_ledring

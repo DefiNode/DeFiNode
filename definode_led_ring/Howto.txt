@@ -1,0 +1,10 @@
+Wirering:
+
+https://learn.adafruit.com/neopixels-on-raspberry-pi/raspberry-pi-wiring
+
+See section "Powering NeoPixels from Raspberry Pi Without Level Shifting"
+
+Python Installation of NeoPixel Library:
+https://learn.adafruit.com/neopixels-on-raspberry-pi/python-usage
+
+Run scrips via double click on the Quickstart links
