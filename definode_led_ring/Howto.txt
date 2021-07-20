@@ -1,3 +1,6 @@
+For this task you need to have the wires soldered (not DO) to the LED ring
+
+
 Wirering:
 
 https://learn.adafruit.com/neopixels-on-raspberry-pi/raspberry-pi-wiring
