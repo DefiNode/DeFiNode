@@ -88,7 +88,7 @@
 ### B.Tools needed:
   - [x] Cutter to clean the 3D Prints
   - [x] Scissors to cut the Fan Filters
-  - [x] Big scre driver or a 5ct coin to open the caseagain if needed
+  - [x] Big scre driver or a 5ct coin to open the casea gain if needed
   - [x] Bonus: Solderin iron only for LED Ring (everyting can run without the LED Ring)
 
 # ✨ LFG!
