@@ -144,46 +144,60 @@ Follow the screen and setup your language, Wi-Fi (it is recommended to use a Eth
 
 For reference check the instructions on VNC tool: [VNC](https://buyzero.de/blogs/news/wie-kann-ich-realvnc-mit-einem-raspberry-pi-nutzen-remote-desktop)
 
-The next two steps are not mandatory and you can do the initial installation with the monitor, mouse and keyboard. But it is very convenient to use remote Desktop to work with the DeFiNode and apply future updates.
-
-* Open the Terminal by clicking on it
-
-![grafik](https://user-images.githubusercontent.com/84664789/124911359-f0ca5580-dfec-11eb-86e1-51fa5253c58b.png)
-
-* Enter: this command and press ENTER
-```
-sudo apt-get install xrdp
-```
-![grafik](https://user-images.githubusercontent.com/84664789/124911777-7221e800-dfed-11eb-9d20-470347472e2e.png)
-![grafik](https://user-images.githubusercontent.com/84664789/124912264-0724e100-dfee-11eb-8286-6b9b34bd1eef.png)
-
-* Write down your the local IP Address by moving the mouse cursor on the connection icon in the top right corner
+Write down your the local IP Address by moving the mouse cursor on the connection icon in the top right corner (we might need it later on)
 
 ![grafik](https://user-images.githubusercontent.com/84664789/124912506-52d78a80-dfee-11eb-84d5-1c718df7db9e.png)
 
-You can fix this address in your individual router setting so it will not change. Typically you don’t have to do it.
+### Edit /boot/config.txt for VNC only usage (mandatory if you want to use the Definode without a monitor)
+
+* Open the file manager
+* Navigate to /boot/ folder
+* Double click on config.txt
+
+![VNC Viewer config](https://user-images.githubusercontent.com/84664789/126489342-4377229e-7386-41db-a5da-efd739b1f567.png)
+
+* Look for the etnry: "#hdmi_force_hotplug=1"
+* Delete the #
+* Save the file
+
+![VNC Viewer config_2](https://user-images.githubusercontent.com/84664789/126489497-8e9c967b-ce60-40fe-af33-69c8a9451559.png)
+
+* Reboot Definode
+
+![Reboot](https://user-images.githubusercontent.com/84664789/126489674-8714f351-3442-4b5f-bc56-025ee122b2b7.png)
+
+
+##	(Optional) Edit resolution with “sudo raspberry-config”
+
+* Open terminal
+* Enter ```sudo raspberry-config```
+* Select Display
+* Select resolution
+* Select the prefered resolution
+* Exit with OK
+* Reboot
+
+![resolution](https://user-images.githubusercontent.com/84664789/126490831-11a38532-d2ad-479c-9570-d302bc477cb0.png)
+
+
+##	(Optional) Change hostname to “definode” with “sudo raspberry-config”
+
+Standard hostname is  ```raspberrypi```. You can change the name to ```definode``` to be able to enter teh wallet in your browser with ```http:\\definode:5000``` instead with ```http:\\raspberrypi:5000```
+
+* Open terminal
+* Enter ```sudo raspberry-config```
+* Select System options
+* Select Hostname
+* Change it to ```definode``
+* Exit with OK
+* Reboot
+
+![Hostname](https://user-images.githubusercontent.com/84664789/126491922-87e6d0e7-e215-488d-9162-7b54273c75bd.png)
+
 
 ## Connect to your DeFiNode from your PC / Mac (Not mandatory but very convenient)
 
-On a Windows PC, look for "Remote Desktop Connection". 
 
-* Mac app: microsoft-remote-desktop
-* Linux app: rdesktop
-
-Windows Example (others should be similar):
-
-* Open Remote Desktop Connection (press windows + q -> enter "remote").
-
-![2021-07-08 12_25_19-Remotedesktopverbindung](https://user-images.githubusercontent.com/84664789/124913511-7d761300-dfef-11eb-8e59-e18ab5d9d797.png)
-
-* Enter the DeFiNode IP address you've written down -> press enter
-
-![2021-07-08 12_26_20-192 168 0 236 - Remotedesktopverbindung](https://user-images.githubusercontent.com/84664789/124913610-9f6f9580-dfef-11eb-912c-6840429e3e2e.png)
-
-* Enter "pi" as username and your DeFiNode password you've written down -> press OK
-* You should now see the DefiNode desktop on your PC / Mac
-
-![2021-07-08 12_26_52-192 168 0 236 - Remotedesktopverbindung](https://user-images.githubusercontent.com/84664789/124913765-d04fca80-dfef-11eb-92b6-4a1d73fdaaa9.png)
 
 🎉 Congratulations! You've done a very good Job so far! 🎉
 
