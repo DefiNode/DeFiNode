@@ -1,8 +1,23 @@
 ### DEVELOPMENT ONGOING...🔭
 
+  ### ✨ DeFiNode for more decentralization ✨
+
+<!-- ADD IMAGE-->
+
+**The DeFiNode is a do-it-yourself DeFiChain full node DeFiChain original source code. No code will be altered during installation and will 100% taken from the DeFiChain repository.**
+
+## Basic Features
+
+* **Easy installation** (Easy mode and Expert mode)
+* **All functionalities of the official full node GUI wallet app**
+* **Can run a Master node**
+* **Controlled by web browser** (From your PC or smartphone)
+* **100% open source**
+
 ## Table of Contents 🔭
 
 **1. Basic Raspberry Pi basic setup**
+  - **Shopping list**
   - **OS installation**
   - **Add coolers**
   - **Connections (Stick, PSU, Mouse, Keyboard, HDMI, Nework)**
@@ -40,40 +55,39 @@
 
 ### DEVELOPMENT ONGOING...🔭
 
-### ✨ DeFiNode for more decentralization ✨
-
-<!-- ![2021-06-17 14_22_36-Raspberry_Pi_Server_Box - FUSION TEAM_cr](https://user-images.githubusercontent.com/84664789/124581373-584b9e00-de51-11eb-92b3-3103a6513776.png)-->
-
-*Build your own DeFiNode on a Raspberry 4B*
-
-*Installation guide for the DeFiChain on a Raspberry 4B 4GB-8GB RAM .*
-
-**The DeFiNode is a do-it-yourself DeFiChain full node DeFiChain original source code. No code will be altered during installation and will 100% taken from the DeFiChain repository.**
-
-## Basic Features (with the dedicated DeFiNode Case, there will be more features introduced)
-
-* **Easy installation** (Easy mode and Expert mode)
-* **All functionalities of the official full node GUI wallet app**
-* **Can run a Master node***
-* **Controlled by web browser** (From your PC or smartphone)
-* **100% open source**
 
 ## Hardware Needed
-Estimated cost around 80-120 USD - based on shops and location.
+
 
 (IMAGES)
 
 ### Basic Amazon Shopping List (with the dedicated DeFiNode Case, there will be a separate shopping list)
-*Please try to use the exact hardware models that are recommended in the shopping lists. A monitor and mouse keybord are needed for the initial setup*
+*Please try to use the exact hardware models that are recommended in the shopping lists. A monitor and mouse keybord are needed for the initial setup. Estimated cost around 100-150 USD - based on shops and location.*
 
-* Raspberry 4 4GB (or 8GB) [amazon link](https://www.amazon.com/-/de/dp/B07TC2BK1X)
-* Power Supply US - USB-C, 5V, >=3A [amazon link](https://www.amazon.com/-/de/dp/B07TSDJSQH)
-* Power Supply EU - USB-C, 5V, >=3A [amazon link](https://www.amazon.de/Jun_Electronic-Ladegerät-Netzteil-Schalter-Raspberry/dp/B07TYYV8GF/)
-* 256GB - Samsung FIT Plus Flash Drive [amazon link](https://www.amazon.com/-/de/dp/B07D7Q41PM/) *min. 128GB version*
-* Heatsink Case for RPi4 : [amazon link](https://www.amazon.com/-/de/dp/B07W664LNN/)
-* HDMI to micro HDMI adapter [amazon link](https://www.amazon.com/-/de/dp/B07RZX9MCS/) 
-* Depending on your monitor input, you will need a HDMI cable or a HDMI -> (DFI, VGA...) adapter
-* Network cable to your router (you can use Wi-Fi if you have a good 5Ghz connection). Ethernet is recommended 
+* Basics:
+
+  - [x] Raspberry 4 4GB (or 8GB) [amazon link](https://www.amazon.com/-/de/dp/B07TC2BK1X)
+  - [x] Power Supply US - USB-C, 5V, >=3A [amazon link](https://www.amazon.com/-/de/dp/B07TSDJSQH)
+  - [x] Power Supply EU - USB-C, 5V, >=3A [amazon link](https://www.amazon.de/Jun_Electronic-Ladegerät-Netzteil-Schalter-Raspberry/dp/B07TYYV8GF/)
+  - [x] 256GB - Samsung FIT Plus Flash Drive [amazon link](https://www.amazon.com/-/de/dp/B07D7Q41PM/) *min. 128GB version*
+  - [x] Heatsink for RPi4 : [amazon link](https://www.amazon.com/-/de/dp/B07W664LNN/)
+  - [x] HDMI to micro HDMI adapter [amazon link](https://www.amazon.com/-/de/dp/B07RZX9MCS/) 
+  - [x] 20cm Jumper cable (you will only nee a couple of male -> female) [amazon link](https://www.amazon.com/-/de/dp/B07GD2BWPY/ref=sr_1_4?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=jumper+cable+male+female&qid=1626862430&sr=8-4) 
+  - [x] Cooling Super Silent Fan 7 [amazon link](https://www.amazon.com/-/de/dp/B01HTNV1GW/ref=sr_1_4?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=AAB+Cooling+Super+Silent+Fan+7&qid=1626862591&sr=8-4) 
+  - [x] Bumper Pads 10mm-12mm wide and 2mm-4mm high or similar I.e. [amazon link](https://www.amazon.com/-/de/dp/B01N922DLO/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Bumper+Pads&qid=1626862817&sr=8-3)
+  - [x] Fan Filters [amazon link](https://www.amazon.com/-/de/dp/B01N6BFVKO/ref=sr_1_9?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=15W7A2VYE9MDQ&dchild=1&keywords=pc+fan+grill&qid=1626862993&sprefix=pc+fan+g%2Caps%2C314&sr=8-9)
+  - [x] Depending on your monitor input, you will need a HDMI cable or a HDMI -> (DFI, VGA...) adapter
+  - [x] Network cable to your router (you can use Wi-Fi if you have a good 5Ghz connection). Ethernet is recommended 
+
+
+* Bonus:
+  - [x] LED Ring [amazon link](https://www.amazon.com/-/de/dp/B08XQLVDMT/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=led+ring+12+bit&qid=1626862358&sr=8-1)
+
+* Tools needed:
+  - [x] Cutter to clean the 3D Prints
+  - [x] Scissors to cut the Fan Filters
+  - [x] Big scre driver or a 5ct coin to open the caseagain if needed
+  - [x] Bonus: Solderin iron only for LED Ring (everyting can run without the LED Ring)
 
 
 ## Assemble your basic DeFiNode
