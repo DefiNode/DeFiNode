@@ -1,4 +1,44 @@
-### DEVELOPMENT ONGOING...
+### DEVELOPMENT ONGOING...🔭
+
+## Table of Contents 🔭
+
+**1. Basic Raspberry Pi basic setup**
+  - **OS installation**
+  - **Add coolers**
+  - **Connections (Stick, PSU, Mouse, Keyboard, HDMI, Nework)**
+  - **First boot with monitor + mouse + keyboard**
+      - **Initial setup**
+      - **VNC activation (+ edit /boot/config.txt on stick: uncomment #hdmi force)**
+      - **Edit /boot/config.txt for VNC only usage**
+      - **(Optional) Edit resolution with “sudo raspberry-config”**
+      - **(Optional) Change hostname to “definode” with “sudo raspberry-config”**
+  - **Remote control VNCViewer**
+  - **Download script and execution**
+  - **First Wallet usage and test**
+  
+**2.	3D Printing**
+  - **Download files**
+  - **Slice files (Tips with Raft)**
+  - **Print and Material (PLA)**
+  - **Clean up and Test print**
+  
+**3.	Bonus (only for advanced users with soldering iron) not essential for operation, but very cool.**
+  - **Solder LED ring**
+  - **Assembly LED ring**
+  - **Connect LED ring (right after step 4.c)**
+  - **Install LED script**
+  - **LED (rainbow) test and usage (in development)**
+  
+**4.	Custom Case assembly**
+  - **Put Raspberry into case**
+  - **Cut grids and insert**
+  - **Connect PSU**
+  - **Connect and assembly Fan**
+  - **Final Assembly (Stick and Network cable)**
+  - **Power on and Wallet usage**
+
+
+### DEVELOPMENT ONGOING...🔭
 
 ### ✨ DeFiNode for more decentralization ✨
 
