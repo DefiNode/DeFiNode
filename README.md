@@ -196,7 +196,10 @@ Standard hostname is  ```raspberrypi```. You can change the name to ```definode`
 ![Hostname](https://user-images.githubusercontent.com/84664789/126491922-87e6d0e7-e215-488d-9162-7b54273c75bd.png)
 
 
-## Connect to your DeFiNode from your PC / Mac (Not mandatory but very convenient)
+## Remote control VNCViewer
+
+(TBD)
+
 
 
 
@@ -204,7 +207,7 @@ Standard hostname is  ```raspberrypi```. You can change the name to ```definode`
 
 🎉 You can now diconnect the external Monitor, mouse and keyboard and proceed work with the Remote Desktop 🎉
 
-## Installing and running Defichain
+## Download script and execution
 
 * Open a new terminal Terminal
 
@@ -220,6 +223,8 @@ git clone http://github.com/definode/definode && cd definode && sudo sh definode
 I know its long but this is really necessary to ensure you build the official software from DeFiChain on your DeFiNode.
 
 There may be some orange messages appear in the terminal, but this is nothing to worry about.
+
+## First Wallet usage and test
 
 When everything is finished and running you will get the message "Please open your browser http://localhost:5000"
 
