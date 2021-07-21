@@ -54,7 +54,8 @@
   - **Connect and assembly Fan**
   - **Final Assembly (Stick and Network cable)**
   - **Power on and Wallet usage**
-
+  
+**5.	FAQ and Trouble shooting guide**
 
 ### DEVELOPMENT ONGOING...🔭
 
