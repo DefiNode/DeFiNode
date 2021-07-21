@@ -1,6 +1,6 @@
 ### DEVELOPMENT ONGOING...🔭
 
-  ### ✨ DeFiNode for more decentralization ✨
+  # ✨ DeFiNode for more decentralization ✨
 
 <!-- ADD IMAGE-->
 
@@ -16,8 +16,11 @@
 
 ## Table of Contents 🔭
 
-**1. Basic Raspberry Pi basic setup**
-  - **Shopping list**
+**A. Shopping list**
+
+**B. Tools needed**
+
+**1. Basic Raspberry Pi setup**
   - **OS installation**
   - **Add coolers**
   - **Connections (Stick, PSU, Mouse, Keyboard, HDMI, Nework)**
@@ -56,12 +59,11 @@
 ### DEVELOPMENT ONGOING...🔭
 
 
-## Hardware Needed
-
 
 (IMAGES)
 
-### Basic Amazon Shopping List (with the dedicated DeFiNode Case, there will be a separate shopping list)
+### A. Basic Amazon Shopping List (with the dedicated DeFiNode Case, there will be a separate shopping list)
+
 *Please try to use the exact hardware models that are recommended in the shopping lists. A monitor and mouse keybord are needed for the initial setup. Estimated cost around 100-150 USD - based on shops and location.*
 
 * Basics:
@@ -83,46 +85,49 @@
 * Bonus:
   - [x] LED Ring [amazon link](https://www.amazon.com/-/de/dp/B08XQLVDMT/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=led+ring+12+bit&qid=1626862358&sr=8-1)
 
-* Tools needed:
+### B.Tools needed:
   - [x] Cutter to clean the 3D Prints
   - [x] Scissors to cut the Fan Filters
   - [x] Big scre driver or a 5ct coin to open the caseagain if needed
   - [x] Bonus: Solderin iron only for LED Ring (everyting can run without the LED Ring)
 
+# ✨ LFG!
 
-## Assemble your basic DeFiNode
-When you have all parts you need to:
+# 1. Basic Raspberry Pi setup
+
+## OS installation
+
+![2021-07-06 12_33_26-Raspberry Pi OS – Raspberry Pi](https://user-images.githubusercontent.com/84664789/124586324-98614f80-de56-11eb-8e28-8fb67b16dff0.png)
+
+* Go to [official Raspberry Pi OS](https://www.raspberrypi.org/software/)
+* Download Raspberry Pi Imager for your specific OS (Windows, Mac, Linux)
+* Isert your Samsung FIT Plus Flash Drive into your PC/Mac
+* Select Raspberry Pi OS 32Bit
+* Select Samsung FIT Plus Flash Drive
+* Click "Write" and follow the instructions
+
+![2021-07-06 12_43_15-Raspberry Pi OS – Raspberry Pi](https://user-images.githubusercontent.com/84664789/124587523-fe9aa200-de57-11eb-8859-2695a0922446.png)
+
+## Add coolers (follow the instructions in package).
+
+![20210708_115943_2](https://user-images.githubusercontent.com/84664789/126476277-9e40836f-7a40-4e93-bf7b-74c70e737a2a.jpg)
+
+## Connections (Stick, PSU, Mouse, Keyboard, HDMI, Nework)
 
 * Assemble the heatsinks on the Raspberry (follow the instructions in package).
 * Connect the Ethernet cable to you Raspberry Pi and router (check your DHCP router config if needed)
 * Connect the micro HDMI adapter + cable to your monitor input
 * Connect mouse and keyboard to the Raspberry Pi USB ports
-* **Do not switch it on yet** (We need to prepare the Samsung FIT Plus Flash Drive on your PC/MAC first)
+* Connect Samsung FIT Plus Flash Drive to a USB 3.0 (blue) port on your Raspberry Pi
 
 Now your basic DeFiNode should look like this:
 
-![20210708_120318](https://user-images.githubusercontent.com/84664789/124910008-62a19f80-dfeb-11eb-8da7-115084dfdc88.jpg)
+![20210708_120318](https://user-images.githubusercontent.com/84664789/126476652-8e05e926-9707-4315-8eb0-d4c9d3b17451.jpg)
 
-## Downloading the official Raspberry Pi OS and preparation of the Samsung FIT Plus Flash Drive
+## First boot with monitor + mouse + keyboard
 
-![2021-07-06 12_33_26-Raspberry Pi OS – Raspberry Pi](https://user-images.githubusercontent.com/84664789/124586324-98614f80-de56-11eb-8e28-8fb67b16dff0.png)
-
-* Go to [official Raspberry Pi OS](https://www.raspberrypi.org/software/)
-* Download Raspberry Pi Imager for your specific OS (Windows, MAC, Linux)
-* Install Pi Imager and start it
-
-![2021-07-06 12_43_15-Raspberry Pi OS – Raspberry Pi](https://user-images.githubusercontent.com/84664789/124587523-fe9aa200-de57-11eb-8859-2695a0922446.png)
-
-* Insert the Samsung FIT Plus Flash Drive into your PC/Mac
-* Select Raspberry Pi OS 32Bit
-* Select Samsung FIT Plus Flash Drive
-* Click "Write" and follow the instructions
-
-## Boot your DeFiNode
-
-* Insert the Samsung FIT Plus Flash Drive into the Raspberry Pi (blue connector)
+* Plug it in 
 * Use the switch to switch on the Raspberry Pi (LEDs should light up)
-
 
 Welcome to Raspberry Pi OS! 
 You should see this screen on your monitor.
@@ -133,9 +138,11 @@ Follow the screen and setup your language, Wi-Fi (it is recommended to use a Eth
 
 ![password](https://user-images.githubusercontent.com/84664789/124910776-3fc3bb00-dfec-11eb-9eb1-a4d61138c703.png)
 
-## Install remote Desktop to control your DeFiNode from your PC / Mac. (Not mandatory but very convenient)
+## VNC activation (to be able to remote controll your Definode without the monitor, mouse and keyboard)
 
-As an alternative you can use the build in VNC tool: [VNC](https://buyzero.de/blogs/news/wie-kann-ich-realvnc-mit-einem-raspberry-pi-nutzen-remote-desktop)
+![VNC Activation](https://user-images.githubusercontent.com/84664789/126477686-1fc510ff-3113-4e0b-b360-1e9eed227dc2.png)
+
+For reference check the instructions on VNC tool: [VNC](https://buyzero.de/blogs/news/wie-kann-ich-realvnc-mit-einem-raspberry-pi-nutzen-remote-desktop)
 
 The next two steps are not mandatory and you can do the initial installation with the monitor, mouse and keyboard. But it is very convenient to use remote Desktop to work with the DeFiNode and apply future updates.
 
