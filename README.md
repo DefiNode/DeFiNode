@@ -341,13 +341,13 @@ Now it should look like this
 (TBD)
 
 # 5.	FAQ and Trouble shooting guide
-(TBD)
-a.  How to import wallet.dat?
-b.  How to backup wallet.dat?
-c.  Installation aborted. What to do?
-d.  How to use the expert scripts / menu?
-e.  Red text during installation?
-f.  Blockchain tab not working?
+
+##a.  How to import wallet.dat?
+##b.  How to backup wallet.dat?
+##c.  Installation aborted. What to do?
+##d.  How to use the expert scripts / menu?
+## e.  Red text during installation?
+## f.  Blockchain tab not working?
 g.  Hot to setup a Master node?
 h.  Wallet not syncing?
 i.  VNC Viewer not connecting?
