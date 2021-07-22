@@ -228,7 +228,7 @@ Now you can connect to it any time from any device and mage it conveniently.
 ![grafik](https://user-images.githubusercontent.com/84664789/124911359-f0ca5580-dfec-11eb-86e1-51fa5253c58b.png)
 
 * Enter: this command and press ENTER
-![20210715_113114](https://user-images.githubusercontent.com/84664789/126633388-d3361f95-7ece-4372-a151-4a31f1fa6a89.jpg)
+
 ```
 git clone http://github.com/definode/definode && cd definode && sudo sh definode.sh
 ```
