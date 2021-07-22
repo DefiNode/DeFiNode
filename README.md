@@ -16,11 +16,11 @@
 
 ## Table of Contents 🔭
 
-**A. Shopping list**
+**[A. Shopping list](https://github.com/DefiNode/DeFiNode/blob/main/README.md#a-basic-amazon-shopping-list-with-the-dedicated-definode-case-there-will-be-a-separate-shopping-list)**
 
-**B. Tools needed**
+**[B. Tools needed](https://github.com/DefiNode/DeFiNode/blob/main/README.md#b-tools-needed)**
 
-**1. Basic Raspberry Pi setup**
+**[1. Basic Raspberry Pi setup](https://github.com/DefiNode/DeFiNode/blob/main/README.md#1-basic-raspberry-pi-setup)**
   - **OS installation**
   - **Add coolers**
   - **Connections (Stick, PSU, Mouse, Keyboard, HDMI, Network)**
@@ -34,7 +34,7 @@
   - **Download script and execution**
   - **First Wallet usage and test**
   
-**2.	3D Printing** 
+**[2.	3D Printing](https://github.com/DefiNode/DeFiNode/blob/main/README.md#23d-printing)** 
   - **Download files**
   - **Slice files (Tips with Raft)**
   - **Print and Material (PLA)**
@@ -48,14 +48,14 @@
   - **Final Assembly (Stick and Network cable)**
   - **Power on and Wallet usage**
   
-**4.	Bonus (only for advanced users with soldering iron) not essential for operation, but very cool.**
+**[4.	Bonus (only for advanced users with soldering iron) not essential for operation, but very cool](https://github.com/DefiNode/DeFiNode/blob/main/README.md#4bonus-only-for-advanced-users-with-soldering-iron-not-essential-for-operation-but-very-cool)**
   - **Solder LED ring**
   - **Assembly LED ring**
   - **Connect LED ring (right after step 4.c)**
   - **Install LED script and auto start it**
   - **LED (rainbow) test and usage (in development)**
 
-**5.	FAQ and Trouble shooting guide**
+**[5.	FAQ and Trouble shooting guide](https://github.com/DefiNode/DeFiNode/blob/main/README.md#5faq-and-trouble-shooting-guide)**
 
 ### DEVELOPMENT ONGOING...🔭
 
