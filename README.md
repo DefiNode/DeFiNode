@@ -252,6 +252,8 @@ When everything is finished and running you will get the message "Please open yo
 
 * You can also use your PC/Mac/Mobile phone browser (when in same LAN) and enter the IP Address (or hostname) + Port to remote control the Node from other devices. I.e. ```192.168.0.236:5000``` or ```http:\\definode:5000``` -> press enter. You can bookmark this in your browser.
 
+For advanced use, like backup / restore wallet, masternodes, blockchain explorer... plese check the FAQ and trouble shooting guide below.
+
 🎉 Congratulations! You've successfully installed the Defichain software on your DeFiNode 🎉
 
 <!--
