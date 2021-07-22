@@ -319,7 +319,7 @@ What you need:
 
 Solder the male side of the jumper cable only to:
 
-* DI pan
+* DI pad
 * 5V pad
 * GND pad
 
