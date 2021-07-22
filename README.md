@@ -23,7 +23,7 @@
 **1. Basic Raspberry Pi setup**
   - **OS installation**
   - **Add coolers**
-  - **Connections (Stick, PSU, Mouse, Keyboard, HDMI, Nework)**
+  - **Connections (Stick, PSU, Mouse, Keyboard, HDMI, Network)**
   - **First boot with monitor + mouse + keyboard**
       - **Initial setup**
       - **VNC activation (+ edit /boot/config.txt on stick: uncomment #hdmi force)**
@@ -65,7 +65,7 @@
 
 ### A. Basic Amazon Shopping List (with the dedicated DeFiNode Case, there will be a separate shopping list)
 
-*Please try to use the exact hardware models that are recommended in the shopping lists. A monitor and mouse keybord are needed for the initial setup. Estimated cost around 100-150 USD - based on shops and location.*
+*Please try to use the exact hardware models that are recommended in the shopping lists. A monitor and mouse keyboard are needed for the initial setup. Estimated cost around 100-150 USD - based on shops and location.*
 
 * Basics:
 
@@ -86,11 +86,11 @@
 * Bonus:
   - [x] LED Ring [amazon link](https://www.amazon.com/-/de/dp/B08XQLVDMT/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=led+ring+12+bit&qid=1626862358&sr=8-1)
 
-### B.Tools needed:
+### B. Tools needed:
   - [x] Cutter to clean the 3D Prints
   - [x] Scissors to cut the Fan Filters
-  - [x] Big scre driver or a 5ct coin to open the casea gain if needed
-  - [x] Bonus: Solderin iron only for LED Ring (everyting can run without the LED Ring)
+  - [x] Big screw driver or a 5ct coin to open the case gain if needed
+  - [x] Bonus: Soldering iron only for LED Ring (everything can run without the LED Ring)
 
 # ✨ LFG!
 
@@ -102,7 +102,7 @@
 
 * Go to [official Raspberry Pi OS](https://www.raspberrypi.org/software/)
 * Download Raspberry Pi Imager for your specific OS (Windows, Mac, Linux)
-* Isert your Samsung FIT Plus Flash Drive into your PC/Mac
+* Insert your Samsung FIT Plus Flash Drive into your PC/Mac
 * Select Raspberry Pi OS 32Bit
 * Select Samsung FIT Plus Flash Drive
 * Click "Write" and follow the instructions
@@ -139,11 +139,11 @@ Follow the screen and setup your language, Wi-Fi (it is recommended to use a Eth
 
 ![password](https://user-images.githubusercontent.com/84664789/124910776-3fc3bb00-dfec-11eb-9eb1-a4d61138c703.png)
 
-## VNC activation (to be able to remote controll your Definode without the monitor, mouse and keyboard)
+## VNC activation (to be able to remote control your Definode without the monitor, mouse and keyboard)
 
 ![VNC Activation](https://user-images.githubusercontent.com/84664789/126477686-1fc510ff-3113-4e0b-b360-1e9eed227dc2.png)
 
-For reference check the instructions on VNC tool: [VNC](https://buyzero.de/blogs/news/wie-kann-ich-realvnc-mit-einem-raspberry-pi-nutzen-remote-desktop)
+For reference check the instructions on VNC tool: [VNC](https://www.realvnc.com/de/connect/download/viewer/)
 
 Write down your the local IP Address by moving the mouse cursor on the connection icon in the top right corner (we might need it later on)
 
@@ -157,7 +157,7 @@ Write down your the local IP Address by moving the mouse cursor on the connectio
 
 ![VNC Viewer config](https://user-images.githubusercontent.com/84664789/126489342-4377229e-7386-41db-a5da-efd739b1f567.png)
 
-* Look for the etnry: "#hdmi_force_hotplug=1"
+* Look for the entry: "#hdmi_force_hotplug=1"
 * Delete the #
 * Save the file
 
@@ -174,7 +174,7 @@ Write down your the local IP Address by moving the mouse cursor on the connectio
 * Enter ```sudo raspberry-config```
 * Select Display
 * Select resolution
-* Select the prefered resolution
+* Select the preferred resolution
 * Exit with OK
 * Reboot
 
@@ -183,7 +183,7 @@ Write down your the local IP Address by moving the mouse cursor on the connectio
 
 ##	(Optional) Change hostname to “definode” with “sudo raspberry-config”
 
-Standard hostname is  ```raspberrypi```. You can change the name to ```definode``` to be able to enter teh wallet in your browser with ```http:\\definode:5000``` instead with ```http:\\raspberrypi:5000```
+Standard hostname is  ```raspberrypi```. You can change the name to ```definode``` to be able to enter the wallet in your browser with ```http:\\definode:5000``` instead with ```http:\\raspberrypi:5000```
 
 * Open terminal
 * Enter ```sudo raspberry-config```
@@ -198,14 +198,29 @@ Standard hostname is  ```raspberrypi```. You can change the name to ```definode`
 
 ## Remote control VNCViewer
 
-(TBD)
+* Download and install VNCViewer tool on your PC/Mac: [VNCViewer](https://www.realvnc.com/de/connect/download/viewer/)
+* DefiNode should be powered on and running
+* Open VNCViewer
 
+![vncviewer_1](https://user-images.githubusercontent.com/84664789/126617116-ea0e98c9-e632-419e-b721-6155dde37888.png)
 
+* Click "New connection"
+* Enter the hostname of your DefiNode in "VNC Server". If you changed it to ````definode````, please use this. ````raspberrypi```` is the standard hostname. You can also enter the local IP address, you've written down, as mentioned above.
+* Klick OK 
+* Double click the new connection
+
+![vncviewer_2](https://user-images.githubusercontent.com/84664789/126618004-b3dd584d-e998-4a02-b4e6-8c30f99a7681.png)
+
+* enter ````pi```` as username
+* enter the password you gave the DefiNode at the first boot
+* press OK and you should see the DefiNode desktop
+
+Now you can connect to it any time from any device and mage it conveniently.
 
 
 🎉 Congratulations! You've done a very good Job so far! 🎉
 
-🎉 You can now diconnect the external Monitor, mouse and keyboard and proceed work with the Remote Desktop 🎉
+🎉 You can now disconnect the external Monitor, mouse and keyboard and proceed work with the Remote Desktop 🎉
 
 ## Download script and execution
 
@@ -228,7 +243,7 @@ There may be some orange messages appear in the terminal, but this is nothing to
 
 When everything is finished and running you will get the message "Please open your browser http://localhost:5000"
 
-* Open the chromium browser on your DeFinode and enter http://localhost:5000 -> press enter
+* Open the chromium browser on your DeFiNode and enter http://localhost:5000 -> press enter
 
 * You can also use your PC/Mac/Mobile phone browser (when in same LAN) and enter the IP Address + Port to remote control the Node from other devices. I.e. 192.168.0.236:5000 -> press enter. You can bookmark this in your browser.
 
