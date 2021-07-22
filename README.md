@@ -40,14 +40,7 @@
   - **Print and Material (PLA)**
   - **Clean up and Test print**
   
-**3.	Bonus (only for advanced users with soldering iron) not essential for operation, but very cool.**
-  - **Solder LED ring**
-  - **Assembly LED ring**
-  - **Connect LED ring (right after step 4.c)**
-  - **Install LED script**
-  - **LED (rainbow) test and usage (in development)**
-  
-**4.	Custom Case assembly**
+**3.	Custom Case assembly**
   - **Put Raspberry into case**
   - **Cut grids and insert**
   - **Connect PSU**
@@ -55,6 +48,13 @@
   - **Final Assembly (Stick and Network cable)**
   - **Power on and Wallet usage**
   
+**4.	Bonus (only for advanced users with soldering iron) not essential for operation, but very cool.**
+  - **Solder LED ring**
+  - **Assembly LED ring**
+  - **Connect LED ring (right after step 4.c)**
+  - **Install LED script and auto start it**
+  - **LED (rainbow) test and usage (in development)**
+
 **5.	FAQ and Trouble shooting guide**
 
 ### DEVELOPMENT ONGOING...🔭
@@ -228,6 +228,7 @@ Now you can connect to it any time from any device and mage it conveniently.
 ![grafik](https://user-images.githubusercontent.com/84664789/124911359-f0ca5580-dfec-11eb-86e1-51fa5253c58b.png)
 
 * Enter: this command and press ENTER
+![20210715_113114](https://user-images.githubusercontent.com/84664789/126633388-d3361f95-7ece-4372-a151-4a31f1fa6a89.jpg)
 ```
 git clone http://github.com/definode/definode && cd definode && sudo sh definode.sh
 ```
@@ -251,7 +252,7 @@ When everything is finished and running you will get the message "Please open yo
 
 * You can also use your PC/Mac/Mobile phone browser (when in same LAN) and enter the IP Address (or hostname) + Port to remote control the Node from other devices. I.e. ```192.168.0.236:5000``` or ```http:\\definode:5000``` -> press enter. You can bookmark this in your browser.
 
-For advanced use, like backup / restore wallet, masternodes, blockchain explorer... plese check the FAQ and trouble shooting guide below.
+For advanced use, like backup / restore wallet, master nodes, blockchain explorer... please check the FAQ and troubleshooting guide below.
 
 🎉 Congratulations! You've successfully installed the Defichain software on your DeFiNode 🎉
 
@@ -259,9 +260,9 @@ For advanced use, like backup / restore wallet, masternodes, blockchain explorer
 
 # 2.	3D Printing
 
-All files can be found in the 3D files folder. Every part was specifically designed for 3D printing and can be easily perinted with every FMD printer. 
+All files can be found in the 3D files folder. Every part was specifically designed for 3D printing and can be easily printed with every FMD printer. 
 
-My preferd material and settings:
+My preferred material and settings:
 
 * PLA
 * 0.4mm nozzle
@@ -273,7 +274,7 @@ Use your favorite slicing tool.
 
 ![2](https://user-images.githubusercontent.com/84664789/126631883-0e6fb333-b75c-48d8-912c-ea44768fce0e.png)
 
-I recoomend using raft for:
+I recommend using raft for:
 
 * The top part
 * The mid part
@@ -282,16 +283,64 @@ Rest of the parts can be printed directly on the plate.
 
 ![1](https://user-images.githubusercontent.com/84664789/126632047-1bc378fc-483a-4476-b089-2591fbc65a93.png)
 
-Use higher quality seetings to have the best looking DefiNode.
+Use higher quality settings to have the best looking DefiNode.
 
-Add support where the slicer recomments
+Add support where the slicer recommends
 
 After the print, clean everything very good and remove the support.
 
 ![20210713_104737_cr](https://user-images.githubusercontent.com/84664789/126632310-9e531a07-1a86-43e2-94cf-b3cc5d04ddb6.jpg)
 
+# 3.	Custom Case assembly
+
+(TBD)
 
 
+
+
+
+
+# 4.	Bonus (only for advanced users with soldering iron) not essential for operation, but very cool.
+
+If you want to make your DeFiNode even cooler, you can add a RGB LED Ring to it. The Ring can be programmed to show any animation you want. For now a pink circle indicates the DefiNode is running.
+
+![Untitled Project](https://user-images.githubusercontent.com/84664789/126632916-2d9d7f80-74e2-44e1-8e96-abccb655a571.gif)
+
+As in the shopping list, you need to get one RGB LED ring and 3 jumper (female -> male) cables (you should have them already)
+
+[x] LED Ring [amazon link](https://www.amazon.com/-/de/dp/B08XQLVDMT/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=led+ring+12+bit&qid=1626862358&sr=8-1)
+
+What you need:
+
+![20210715_113106](https://user-images.githubusercontent.com/84664789/126633533-45e118db-e67c-4b3b-ab5d-5df372578503.jpg)
+
+## Soldering
+
+Solder the male side of the jumper cable only to:
+
+* DI pan
+* 5V pad
+* GND pad
+
+DO pad is not needed here. Color of the jumper cable is not important. As long as you do the Raspberrypi connection properly.
+
+![2021-07-22 13_39_04-](https://user-images.githubusercontent.com/84664789/126633956-c06d6955-0da0-46b6-ba04-155911b4dd9f.png)
+
+Now it should look like this
+
+![20210722_134437](https://user-images.githubusercontent.com/84664789/126634402-c8eba467-d78a-4cfa-b10d-e1c56828aa6d.jpg)
+
+## Assembly LED ring
+(TBD)
+## Connect LED ring (right after step 3.c)
+(TBD)
+## 	Install LED script and auto start it
+(TBD)
+## 	LED (rainbow) test and usage (in development)
+(TBD)
+
+# 5.	FAQ and Trouble shooting guide
+(TBD)
 <!--
 **DefiNode/DeFiNode** is a ✨ _special_ ✨ repository because it’s `README.md` (this file) appears on your GitHub profile.
 
