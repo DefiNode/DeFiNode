@@ -257,6 +257,40 @@ For advanced use, like backup / restore wallet, masternodes, blockchain explorer
 
 ![wallet](https://user-images.githubusercontent.com/84664789/126619910-2e0fd58b-cc7d-496a-a60f-ebd0173b48a9.png)
 
+# 2.	3D Printing
+
+All files can be found in the 3D files folder. Every part was specifically designed for 3D printing and can be easily perinted with every FMD printer. 
+
+My preferd material and settings:
+
+* PLA
+* 0.4mm nozzle
+* Temps depending on the brand you are using
+
+## Slice files
+
+Use your favorite slicing tool.
+
+![2](https://user-images.githubusercontent.com/84664789/126631883-0e6fb333-b75c-48d8-912c-ea44768fce0e.png)
+
+I recoomend using raft for:
+
+* The top part
+* The mid part
+
+Rest of the parts can be printed directly on the plate.
+
+![1](https://user-images.githubusercontent.com/84664789/126632047-1bc378fc-483a-4476-b089-2591fbc65a93.png)
+
+Use higher quality seetings to have the best looking DefiNode.
+
+Add support where the slicer recomments
+
+After the print, clean everything very good and remove the support.
+
+![20210713_104737_cr](https://user-images.githubusercontent.com/84664789/126632310-9e531a07-1a86-43e2-94cf-b3cc5d04ddb6.jpg)
+
+
 
 <!--
 **DefiNode/DeFiNode** is a ✨ _special_ ✨ repository because it’s `README.md` (this file) appears on your GitHub profile.
