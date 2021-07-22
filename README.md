@@ -34,13 +34,13 @@
   - **Download script and execution**
   - **First Wallet usage and test**
   
-**2.	3D Printing**
+**2.	3D Printing** 
   - **Download files**
   - **Slice files (Tips with Raft)**
   - **Print and Material (PLA)**
   - **Clean up and Test print**
   
-**3.	Custom Case assembly**
+**[3.	Custom Case assembly](https://github.com/DefiNode/DeFiNode/blob/main/README.md#3custom-case-assembly)**
   - **Put Raspberry into case**
   - **Cut grids and insert**
   - **Connect PSU**
