@@ -342,19 +342,20 @@ Now it should look like this
 
 # 5.	FAQ and Trouble shooting guide
 
-##a.  How to import wallet.dat?
-##b.  How to backup wallet.dat?
-##c.  Installation aborted. What to do?
-##d.  How to use the expert scripts / menu?
+## a.  How to import wallet.dat?
+(TBD)
+## b.  How to backup wallet.dat?
+## c.  Installation aborted. What to do?
+## d.  How to use the expert scripts / menu?
 ## e.  Red text during installation?
 ## f.  Blockchain tab not working?
-g.  Hot to setup a Master node?
-h.  Wallet not syncing?
-i.  VNC Viewer not connecting?
-j.  VNC Viewer black screen?
-k.  Fan not working?
-l.  LED ring not working?
-m.  Not booting?
+## g.  Hot to setup a Master node?
+## h.  Wallet not syncing?
+## i.  VNC Viewer not connecting?
+## j.  VNC Viewer black screen?
+## k.  Fan not working?
+## l.  LED ring not working?
+## m.  Not booting?
 
 <!--
 **DefiNode/DeFiNode** is a ✨ _special_ ✨ repository because it’s `README.md` (this file) appears on your GitHub profile.
