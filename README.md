@@ -217,7 +217,6 @@ Standard hostname is  ```raspberrypi```. You can change the name to ```definode`
 
 Now you can connect to it any time from any device and mage it conveniently.
 
-
 🎉 Congratulations! You've done a very good Job so far! 🎉
 
 🎉 You can now disconnect the external Monitor, mouse and keyboard and proceed work with the Remote Desktop 🎉
@@ -255,6 +254,9 @@ When everything is finished and running you will get the message "Please open yo
 For advanced use, like backup / restore wallet, masternodes, blockchain explorer... plese check the FAQ and trouble shooting guide below.
 
 🎉 Congratulations! You've successfully installed the Defichain software on your DeFiNode 🎉
+
+![wallet](https://user-images.githubusercontent.com/84664789/126619910-2e0fd58b-cc7d-496a-a60f-ebd0173b48a9.png)
+
 
 <!--
 **DefiNode/DeFiNode** is a ✨ _special_ ✨ repository because it’s `README.md` (this file) appears on your GitHub profile.
