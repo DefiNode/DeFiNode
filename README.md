@@ -2,7 +2,8 @@
 
   # ✨ DeFiNode for more decentralization ✨
 
-<!-- ADD IMAGE-->
+![Title](https://user-images.githubusercontent.com/84664789/126639893-752b7687-eae5-424a-b35c-df782da80133.png)
+
 
 **The DeFiNode is a do-it-yourself DeFiChain full node DeFiChain original source code. No code will be altered during installation and will 100% taken from the DeFiChain repository.**
 
