@@ -237,15 +237,20 @@ git clone http://github.com/definode/definode && cd definode && sudo sh definode
 
 I know its long but this is really necessary to ensure you build the official software from DeFiChain on your DeFiNode.
 
+* Steps done in the background:
+  * Downloading and installing the official DeFiChain software. Nothing is changed and 100% original source code is downloaded
+  * Downloading the latest blockchain snapshot (no 100% sync needed after installation)
+  * Start DeFiChain and wallet
+
 There may be some orange messages appear in the terminal, but this is nothing to worry about.
 
 ## First Wallet usage and test
 
-When everything is finished and running you will get the message "Please open your browser http://localhost:5000"
+When everything is finished and running you will get the message "Please open your browser http://localhost:5000" in the terminal
 
 * Open the chromium browser on your DeFiNode and enter http://localhost:5000 -> press enter
 
-* You can also use your PC/Mac/Mobile phone browser (when in same LAN) and enter the IP Address + Port to remote control the Node from other devices. I.e. 192.168.0.236:5000 -> press enter. You can bookmark this in your browser.
+* You can also use your PC/Mac/Mobile phone browser (when in same LAN) and enter the IP Address (or hostname) + Port to remote control the Node from other devices. I.e. ```192.168.0.236:5000``` or ```http:\\definode:5000``` -> press enter. You can bookmark this in your browser.
 
 🎉 Congratulations! You've successfully installed the Defichain software on your DeFiNode 🎉
 
