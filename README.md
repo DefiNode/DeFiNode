@@ -374,12 +374,26 @@ Prepare scissors, cutting template and the flexible fan grids you've purchased f
 * Make sure the locking mechanism aligns 100%
 * Slightly press down the mid 
 * It should slide and lock pretty smoothly. When not, check for 3D printing remaining and remove them.
-* Always mekr sure the cables align
+* Always make sure the cables align
 
 ![20210721_134324s](https://user-images.githubusercontent.com/84664789/126762769-aa28785f-601d-482b-bec7-1e620cccbca1.jpg)
 
 ## Connect and assembly Fan
-(TBD)
+
+* Prepare the fan and two jumper cables (male -> female)
+![20210715_113014s](https://user-images.githubusercontent.com/84664789/126792316-ddeacebd-5c65-4a3d-a00b-bee77a967a70.jpg)
+* Connect both to the Black and Red wires on the Fan connector (yellow is not needed). I dosn't matter what colors the jumper cables have.
+![20210721_134213s](https://user-images.githubusercontent.com/84664789/126792413-6addb671-2ec6-4af5-8fbe-af00c7022531.jpg)
+* Connect the jumper cables according to the picture
+  * Red cable goes to Pin 2 on the Raspberry
+  * Black cable goes to Pin 6 on the Raspberry   
+![fans](https://user-images.githubusercontent.com/84664789/126794113-0c14e773-6b0b-4584-a028-f2b0b89dab08.png)
+* I should look like this (don't pay attention to the green, yellow and orange jumper. Those are for the LED ring and will be described later on)
+![20210721_134141s](https://user-images.githubusercontent.com/84664789/126792493-c07c7780-0b8d-4108-b5b4-b72200e83942.jpg)
+
+You can switch on the Raspberry without the USD Stick to test if the fan is running.
+
+
 ## Final Assembly (USB Stick and Network cable)
 (TBD)
 ## Power on and Wallet usage
@@ -452,7 +466,7 @@ https://defichain-wiki.com/wiki/Masternode_installation_extended
 ## h.  Wallet not syncing?
 Go to your expert scripts (see 5d) and use option "8 Repair DeFiNode"
 ## i.  VNC Viewer not connecting?
-Check your IP Adress
+Check your IP Address
 ## j.  VNC Viewer black screen?
 ## k.  Fan not working?
 ## l.  LED ring not working?
