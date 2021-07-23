@@ -294,9 +294,43 @@ After the print, clean everything very good and remove the support.
 
 # 3.	Custom Case assembly
 
-(TBD)
+If you successfully finished step 1 and the wallet was running in the Raspberry you can now start assembling the DefiNode. Please clan the 3D print as good as you can. You can use a cutter knife to remove support or other unnecessary remaining.
+
+Shutdown via VNC (not just power off) your Raspberrypi. Remove all connections and USD stick.
+
+![20210721_134459_s](https://user-images.githubusercontent.com/84664789/126760225-33212e65-e013-46ec-a42e-f0ccd4018d37.jpg)
 
 
+## Put Raspberry into case
+
+* Use a soft material table pad on the table if possible.
+* Slice in the Raspberry connectors first
+* Press the back side very gently in to the hocks. 
+
+![20210713_104209_s](https://user-images.githubusercontent.com/84664789/126760460-bbc4f32d-9929-4ed7-ac56-3e3cd0bbd157.jpg)
+![20210713_104232s](https://user-images.githubusercontent.com/84664789/126760549-bfc9b479-b252-4790-8010-e2a23e6bfbc1.jpg)
+![20210713_104250s](https://user-images.githubusercontent.com/84664789/126760587-a79fbb19-6af6-4f60-b95e-9d9aff811dfc.jpg)
+
+That’s it, no screws, nothing. Easy, isn't it!
+
+## Cut grids and insert
+
+Prepare scissors, cutting template and the flexible fan grids you've purchased from Amazon.
+
+* Use the template to cut two fitting grids
+* If it will not fit right away, you can trim them later on
+
+![20210715_112739s](https://user-images.githubusercontent.com/84664789/126761400-a1a27178-1729-46cd-a0e4-aae745f8bc10.jpg)
+![20210715_112840s](https://user-images.githubusercontent.com/84664789/126761463-4b6ebf66-7b83-4648-990b-75b23ef9c2dc.jpg)
+![20210715_112918s](https://user-images.githubusercontent.com/84664789/126761490-8379ae4a-364e-4768-b9c2-8c436bb8eb5d.jpg)
+
+* Make sure the slots are clear very clear, so you can easily insert the grid.
+
+![20210721_134556s](https://user-images.githubusercontent.com/84664789/126761918-27305a96-072b-4963-870c-14a253498c1a.jpg)
+
+* Check the orientation and slide in the grid. This should go very smooth.
+
+![20210721_134424_cr](https://user-images.githubusercontent.com/84664789/126761554-d9de35de-2d4c-4438-b9c3-c28194c6b5b4.jpg)
 
 
 
