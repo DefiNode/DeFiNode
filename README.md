@@ -478,37 +478,40 @@ Now it should look like this
 
 # 5.	FAQ and Trouble shooting guide
 
-## a.  How to import wallet.dat?
+## How to import wallet.dat?
 Put your wallet.dat in your definode/defichain folder. Make sure you habe a backup of your wallet.dat
-## b.  How to backup wallet.dat?
+## How to backup wallet.dat?
 Go to your definode/defichain folder and copy your wallet.dat on an USB device
 or go to your definode folder and run the this script:
 sudo -E sh 09_backup_defiwallet.sh
 Your backup is still on your Raspberry Pi. Make sure you store it somewhere else.
-## c.  Installation aborted. What to do?
+## Installation aborted. What to do?
 Try it again :-)
-## d.  How to use the expert scripts / menu?
+## How to use the expert scripts / menu?
 On your desktop you will find the "DeFiNode Main Menu"
 or open via console
 sudo -E sh 00_definode.sh
-## e.  Red text during installation?
+## Red text during installation?
 Keep calm and relax. Your DeFiNode i almost ready.
-## f.  Blockchain tab not working?
+## Blockchain tab not working?
 We are working on that. Just use https://explorer.defichain.io/ or  https://chainz.cryptoid.info/dfi/
-## g.  Hot to setup a Master node?
+## Hot to setup a Master node?
 defi-cli is your friend
 For more informations type in your console
 docker exec defi_node defi-cli help createmasternode 
 and follow the instructions on:
 https://defichain-wiki.com/wiki/Masternode_installation_extended
-## h.  Wallet not syncing?
+## Wallet not syncing?
 Go to your expert scripts (see 5d) and use option "8 Repair DeFiNode"
-## i.  VNC Viewer not connecting?
+## VNC Viewer not connecting?
 Check your IP Address
-## j.  VNC Viewer black screen?
+## VNC Viewer black screen?
+(TBD)
 ## k.  Fan not working?
-## l.  LED ring not working?
-## m.  Not booting?
+(TBD)
+## LED ring not working?
+(TBD)
+## Not booting?
 Check USB device or SD Card.
 Check Power Supply
 
