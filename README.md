@@ -461,13 +461,20 @@ Now it should look like this
 ![20210722_134437](https://user-images.githubusercontent.com/84664789/126634402-c8eba467-d78a-4cfa-b10d-e1c56828aa6d.jpg)
 
 ## Assembly LED ring
-(TBD)
+
+* Mount the ring as in the image below. Don’t use too much pressure, you may break off the hock.
+
+![20210716_140024s](https://user-images.githubusercontent.com/84664789/126798181-c5ca83c1-91ac-42b5-9d28-aff6f700e946.jpg)
+![20210716_140120s](https://user-images.githubusercontent.com/84664789/126798246-51ce7aeb-c3e6-4d30-9d1f-2868ff9ea07f.jpg)
+
 ## Connect LED ring (right after step 3.c)
-(TBD)
+
+![2021-07-23 16_02_33-s](https://user-images.githubusercontent.com/84664789/126797702-885ac7f7-f890-454f-b978-a4b93c653bf2.png)
+
 ## 	Install LED script and auto start it
-(TBD)
+(TBD) but check the txt on GitHub
 ## 	LED (rainbow) test and usage (in development)
-(TBD)
+(TBD) but check the txt on GitHub
 
 # 5.	FAQ and Trouble shooting guide
 
