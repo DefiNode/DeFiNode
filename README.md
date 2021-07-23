@@ -381,23 +381,54 @@ Prepare scissors, cutting template and the flexible fan grids you've purchased f
 ## Connect and assembly Fan
 
 * Prepare the fan and two jumper cables (male -> female)
+
 ![20210715_113014s](https://user-images.githubusercontent.com/84664789/126792316-ddeacebd-5c65-4a3d-a00b-bee77a967a70.jpg)
+
 * Connect both to the Black and Red wires on the Fan connector (yellow is not needed). I dosn't matter what colors the jumper cables have.
+
 ![20210721_134213s](https://user-images.githubusercontent.com/84664789/126792413-6addb671-2ec6-4af5-8fbe-af00c7022531.jpg)
+
 * Connect the jumper cables according to the picture
   * Red cable goes to Pin 2 on the Raspberry
-  * Black cable goes to Pin 6 on the Raspberry   
+  * Black cable goes to Pin 6 on the Raspberry  
+  
 ![fans](https://user-images.githubusercontent.com/84664789/126794113-0c14e773-6b0b-4584-a028-f2b0b89dab08.png)
-* I should look like this (don't pay attention to the green, yellow and orange jumper. Those are for the LED ring and will be described later on)
+
+* I should look like this (don't pay attention to the green, yellow and orange jumper. Those are for the LED ring and will be described later)
+
 ![20210721_134141s](https://user-images.githubusercontent.com/84664789/126792493-c07c7780-0b8d-4108-b5b4-b72200e83942.jpg)
 
 You can switch on the Raspberry without the USD Stick to test if the fan is running.
 
+## If you want to add the LED Ring jump to chapter 4 and come back here, when this is finished.
+
+* Insert Fan exactly like in the picture. You can bend the jumper cable so the fan will not hit the when rotating.
+
+![20210721_134103_cr](https://user-images.githubusercontent.com/84664789/126795860-f65508da-3bd1-439c-9e62-06fa375f4ea1.jpg)
+
+* Organize the cables and insert the air guide like in the image below. Make sure the air guide is flat on the fan and has a good fit. If not, check if the cables are proper organized.
+
+![20210721_134045s](https://user-images.githubusercontent.com/84664789/126795931-dfaddadc-ba41-4494-955e-86f8785267df.jpg)
+
+* Check again if the fan is working by powering on the Raspberry without the USB Stick.
+
+* You cannot close the DefiNode by mounting the top. Make sure it aligns and press is slightly down.
+* If you have to open it again, you can use a big screwdriver or a 5ct coin or similar.
+
+![20210721_134000](https://user-images.githubusercontent.com/84664789/126796002-92e7617e-817f-45e1-84be-6a745778aae5.jpg)
+
 
 ## Final Assembly (USB Stick and Network cable)
-(TBD)
-## Power on and Wallet usage
-(TBD)
+
+* Connect the LAN cable
+* Insert the USB Stick
+
+![20210713_112134s](https://user-images.githubusercontent.com/84664789/126796774-0002522c-0017-4113-b4f4-1e01294799cc.jpg)
+
+
+## Power on 
+
+* You can now power on the DeFiNode and process with using the wallet a described in chapter 1.
 
 # 4.	Bonus (only for advanced users with soldering iron) not essential for operation, but very cool.
 
