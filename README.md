@@ -65,7 +65,7 @@
 
 (IMAGES)
 
-### A. Basic Amazon Shopping List (with the dedicated DeFiNode Case, there will be a separate shopping list)
+### A. Basic Amazon Shopping List 
 
 *Please try to use the exact hardware models that are recommended in the shopping lists. A monitor and mouse keyboard are needed for the initial setup. Estimated cost around 100-150 USD - based on shops and location.*
 
@@ -86,7 +86,25 @@
 
 
 * Bonus:
-  - [x] LED Ring [amazon link](https://www.amazon.com/-/de/dp/B08XQLVDMT/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=led+ring+12+bit&qid=1626862358&sr=8-1)
+  - [x] 12 x LED Ring [amazon link](https://www.amazon.com/-/de/dp/B08XQLVDMT/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=led+ring+12+bit&qid=1626862358&sr=8-1)
+
+### :de: A. German Basic Amazon Shopping List :sweat_smile: :de:
+
+  - [x] Raspberry 4 4GB (or 8GB) [amazon link](https://www.amazon.de/Raspberry-Pi-ARM-Cortex-A72-Bluetooth-Micro-HDMI/dp/B07TC2BK1X)
+  - [x] Power Supply EU - USB-C, 5V, >=3A [amazon link](https://www.amazon.de/Jun_Electronic-Ladegerät-Netzteil-Schalter-Raspberry/dp/B07TYYV8GF/)
+  - [x] 256GB - Samsung FIT Plus Flash Drive [amazon link](https://www.amazon.de/Samsung-256GB-Flash-MUF-256AB-APC/dp/B07HPX38XC/ref=sr_1_4?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=256GB+-+Samsung+FIT+Plus+Flash+Drive&qid=1627047590&s=ce-de&sr=1-4) *min. 128GB version*
+  - [x] Heatsink for RPi4 : [amazon link](https://www.amazon.de/ITSTUFF-Aluminium-K%C3%BChlk%C3%B6rper-schwarz-Raspberry/dp/B07VH683L9/ref=sr_1_56?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=heatsink+for+rpi+4&qid=1627047642&s=ce-de&sr=1-56)
+  - [x] HDMI to micro HDMI adapter [amazon link](https://www.amazon.de/Techrum-Adapterkabel-Micro-HDMI-auf-HDMI-Micro-HDMI-Stecker-Normal-HDMI-Verl%C3%A4ngerungskabel-1-St%C3%BCck/dp/B07VXPD83L/ref=sr_1_5?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=HDMI+to+micro+HDMI+adapter&qid=1627047663&s=ce-de&sr=1-5) 
+  - [x] 20cm Jumper cable (you will only nee a couple of male -> female) [amazon link](https://www.amazon.de/AZDelivery-Jumper-Arduino-Raspberry-Breadboard/dp/B07K8PVKBP/ref=sr_1_5?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Jumper+cable+male+female&qid=1627047691&s=ce-de&sr=1-5) 
+  - [x] Cooling Super Silent Fan 7 [amazon link](https://www.amazon.de/AAB-Cooling-Super-Silent-Anti-Vibration-Pads/dp/B01HTNV1GW/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Cooling+Super+Silent+Fan+7&qid=1627047720&s=ce-de&sr=1-3) 
+  - [x] Bumper Pads 10mm-12mm wide and 2mm-4mm high or similar I.e. [amazon link](https://www.amazon.de/Antirutsch-Zellkautschuk-selbstklebend-Rutschhemmende-inTop-Qualit%C3%A4t/dp/B06Y6HZQVQ/ref=sr_1_4?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=Antirutsch+Pads+12mm&qid=1627047758&s=diy&sr=1-4)
+  - [x] Fan Filters [amazon link](https://www.amazon.de/gp/product/B01DIYRK52/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
+  - [x] Depending on your monitor input, you will need a HDMI cable or a HDMI -> (DFI, VGA...) adapter
+  - [x] Network cable to your router (you can use Wi-Fi if you have a good 5Ghz connection). Ethernet is recommended 
+
+
+* Bonus:
+  - [x] 12 x LED Ring [amazon link](https://www.amazon.de/gp/product/B07SPL2YC1/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1)
 
 ### B. Tools needed:
   - [x] Cutter to clean the 3D Prints
