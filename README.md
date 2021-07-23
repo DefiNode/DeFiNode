@@ -17,7 +17,7 @@
 
 ## Table of Contents 🔭
 
-**[A. Shopping list](https://github.com/DefiNode/DeFiNode/blob/main/README.md#a-basic-amazon-shopping-list-with-the-dedicated-definode-case-there-will-be-a-separate-shopping-list)**
+**[A. Shopping list (also German)](https://github.com/DefiNode/DeFiNode/blob/main/README.md#a-basic-amazon-shopping-list-with-the-dedicated-definode-case-there-will-be-a-separate-shopping-list)**
 
 **[B. Tools needed](https://github.com/DefiNode/DeFiNode/blob/main/README.md#b-tools-needed)**
 
