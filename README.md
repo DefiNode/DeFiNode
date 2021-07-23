@@ -442,6 +442,15 @@ Check your IP Adress
 Check USB device or SD Card.
 Check Power Supply
 
+*DISCLAIMER
+
+*The information provided by DefiNode GitHub, Twitter, Reddit and Telegram is for general informational purposes only. All information on the sites and channels is provided in good faith, however we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability or completeness of any information on the Site or our channels. 
+
+*UNDER NO CIRCUMSTANCE SHALL WE HAVE ANY LIABILITY TO YOU FOR ANY LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESULT OF THE USE OF THIS SITE, CHANNELS, SCRIPTS AND TUTORIALS. YOUR USE OF THE SITE, SCRIPTS AND TUTORIALS AND YOUR RELIANCE ON ANY INFORMATION ON THIS SITE AND CHANNELS IS SOLELY AT YOUR OWN RISK. 
+
+*Last updated July 23, 2021 
+
+
 <!--
 **DefiNode/DeFiNode** is a ✨ _special_ ✨ repository because it’s `README.md` (this file) appears on your GitHub profile.
 
