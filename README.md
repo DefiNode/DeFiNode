@@ -45,6 +45,7 @@
   - **Put Raspberry into case**
   - **Cut grids and insert**
   - **Connect PSU**
+  - **Assembly the bottom**
   - **Connect and assembly Fan**
   - **Final Assembly (Stick and Network cable)**
   - **Power on and Wallet usage**
@@ -359,7 +360,12 @@ Prepare scissors, cutting template and the flexible fan grids you've purchased f
 
 ![20210721_134324s](https://user-images.githubusercontent.com/84664789/126762769-aa28785f-601d-482b-bec7-1e620cccbca1.jpg)
 
-##	Connect and assembly Fan
+## Connect and assembly Fan
+(TBD)
+## Final Assembly (USB Stick and Network cable)
+(TBD)
+## Power on and Wallet usage
+(TBD)
 
 # 4.	Bonus (only for advanced users with soldering iron) not essential for operation, but very cool.
 
