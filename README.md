@@ -355,9 +355,11 @@ Prepare scissors, cutting template and the flexible fan grids you've purchased f
 * Make sure the locking mechanism aligns 100%
 * Slightly press down the mid 
 * It should slide and lock pretty smoothly. When not, check for 3D printing remaining and remove them.
+* Always mekr sure the cables align
 
 ![20210721_134324s](https://user-images.githubusercontent.com/84664789/126762769-aa28785f-601d-482b-bec7-1e620cccbca1.jpg)
 
+##	Connect and assembly Fan
 
 # 4.	Bonus (only for advanced users with soldering iron) not essential for operation, but very cool.
 
