@@ -332,7 +332,31 @@ Prepare scissors, cutting template and the flexible fan grids you've purchased f
 
 ![20210721_134424_cr](https://user-images.githubusercontent.com/84664789/126761554-d9de35de-2d4c-4438-b9c3-c28194c6b5b4.jpg)
 
+## Connect PSU
 
+* Slide the cable in like in the picture below
+* Connect the USB-C connector to the raspberrypi
+
+![20210713_112026s](https://user-images.githubusercontent.com/84664789/126762253-8522d896-2cb1-4b30-a19f-78d21d6e2acf.jpg)
+
+* Flip the case und put the power cable into the strain relive and hole at the back. 
+* Make sure the power switch is outside the case
+
+![20210721_134335s](https://user-images.githubusercontent.com/84664789/126762311-394e1a0b-a148-40c0-ad81-6ab1f52b1180.jpg)
+
+## Assembly of the bottom 
+
+* Here you can add a SSD if you want too.
+* Make sure the bottom is oriented like in the picture. I will not fit otherwise!
+
+![20210721_134315s](https://user-images.githubusercontent.com/84664789/126762712-38ad640a-3fbc-4647-9dd0-6cdc70e0ab96.jpg)
+
+* Put the mid part on top
+* Make sure the locking mechanism aligns 100%
+* Slightly press down the mid 
+* It should slide and lock pretty smoothly. When not, check for 3D printing remaining and remove them.
+
+![20210721_134324s](https://user-images.githubusercontent.com/84664789/126762769-aa28785f-601d-482b-bec7-1e620cccbca1.jpg)
 
 
 # 4.	Bonus (only for advanced users with soldering iron) not essential for operation, but very cool.
