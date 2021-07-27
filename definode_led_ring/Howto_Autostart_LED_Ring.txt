@@ -3,5 +3,5 @@ sudo nano /etc/rc.local
 #dann vor dem "exit 0" eingeben:
 
 #autostart for python script
-sleep 10 (weniger führt zu Anzeigefehler)
-python3 /home/pi/definode_ledring/led_pink_circle.py
+sleep 10 (weniger fÃ¼hrt zu Anzeigefehler)
+python3 /home/pi/definode/definode_led_ring/led_pink_circle.py
