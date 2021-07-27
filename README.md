@@ -201,12 +201,12 @@ Write down your the local IP Address by moving the mouse cursor on the connectio
 ![resolution](https://user-images.githubusercontent.com/84664789/126490831-11a38532-d2ad-479c-9570-d302bc477cb0.png)
 
 
-##	(Optional) Change hostname to “definode” with “sudo raspberry-config”
+##	(Optional) Change hostname to “definode” with “sudo raspi-config”
 
 Standard hostname is  ```raspberrypi```. You can change the name to ```definode``` to be able to enter the wallet in your browser with ```http:\\definode:5000``` instead with ```http:\\raspberrypi:5000```
 
 * Open terminal
-* Enter ```sudo raspberry-config```
+* Enter ```sudo raspi-config```
 * Select System options
 * Select Hostname
 * Change it to ```definode``
