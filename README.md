@@ -165,6 +165,8 @@ Write down your the local IP Address by moving the mouse cursor on the connectio
 
 ### Edit /boot/config.txt for VNC only usage (mandatory if you want to use the Definode without a monitor)
 
+### NOT WORKING YET. WILL DO AN UPDATE (You need to edit the config.txt on an PC / Mac)
+
 * Open the file manager
 * Navigate to /boot/ folder
 * Double click on config.txt
