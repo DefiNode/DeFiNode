@@ -1,4 +1,3 @@
-### DEVELOPMENT ONGOING...🔭
 
   # ✨ DeFiNode for more decentralization ✨
 
@@ -59,11 +58,6 @@
 
 **[5.	FAQ and Trouble shooting guide](https://github.com/DefiNode/DeFiNode/blob/main/README.md#5faq-and-trouble-shooting-guide)**
 
-### DEVELOPMENT ONGOING...🔭
-
-
-
-(IMAGES)
 
 ### A. Basic Amazon Shopping List 
 
