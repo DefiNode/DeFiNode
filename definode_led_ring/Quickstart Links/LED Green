@@ -2,11 +2,11 @@
 Name=LED Green
 Comment=start LED Ring green
 Icon=/usr/share/pixmaps/defiChainLogo1.png
-Exec=sudo python3 /home/pi/definode_ledring/led_green.py
+Exec=sudo python3 /home/pi/definode/definode_led_ring/led_green.py
 Type=Application
 Encoding=UTF-8
 Terminal=true
 Categories=None;
 StartupNotify=false
 Comment[de_CH]=DeFiNode LED ring
-Path=/home/pi/definode_ledring/Quickstart
+Path=/home/pi/definode/definode_led_ring/
