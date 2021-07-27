@@ -1,6 +1,6 @@
 1. Copy the links (files) to the Desktop (or keep them here)
 2. opne one cosnsole
-3. type: sudo chmod +x /home/pi/definode_ledring/led_blue.py
+3. type: udo chmod +x /home/pi/definode/definode_led_ring/led_blue.py
 4. do the same for the other files
 5. double click the file you want and select "open in console"
 6. If you want another color, you need to close the first console first (two colors will not work) 
