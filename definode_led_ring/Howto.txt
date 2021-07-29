@@ -1,13 +1,20 @@
 For this task you need to have the wires soldered (not DO) to the LED ring
 
 
-Wirering:
+1.	Erstmal alles anschließen wie im Bild in der Anleitung
+2.	Libs installieren
+sudo pip3 install rpi_ws281x adafruit-circuitpython-neopixel
+sudo python3 -m pip install --force-reinstall adafruit-blinka
+3.	LED testen
+sudo python3 /home/pi/definode/definode_led_ring/led_rainbow.py
 
-https://learn.adafruit.com/neopixels-on-raspberry-pi/raspberry-pi-wiring
+Auto start für Pink LED:
+sudo nano /etc/rc.local
+Vor dem "exit 0" eingeben: 
+sleep 10 #(weniger führt zu Anzeigefehler) 
 
-See section "Powering NeoPixels from Raspberry Pi Without Level Shifting"
+python3 /home/pi/definode/definode_led_ring/led_pink_circle.py
+Speichern (strg+o)
+Exit (strg+x)
+Reboot
 
-Python Installation of NeoPixel Library:
-https://learn.adafruit.com/neopixels-on-raspberry-pi/python-usage
-
-Run scrips via double click on the Quickstart links
