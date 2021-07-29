@@ -158,6 +158,25 @@ do_10_init_defihome() {
 	#####
 }
 
+do_11_update_images() {
+	echo 11_update_images
+	sudo -E sh 11_update_images.sh
+	sudo -E sh 07_stop_definode.sh
+	sudo -E sh 04_run_definode.sh
+	### wait for SPACE key pressed
+	hold=' '
+	echo "Press 'SPACE' to return to menu"
+	tty_state=$(stty -g)
+	stty -icanon
+	until [ -z "${hold#$in}" ] ; do
+	    in=$(dd bs=1 count=1 </dev/tty 2>/dev/null)
+	done
+	stty "$tty_state"
+	#####
+	
+	do_show_menu
+}
+
 do_finish() {
 	echo Goodbye
 }
@@ -176,7 +195,8 @@ do_show_menu() {
 	""  "=================================" \
 	"8" "Show Defi Chain logs" \
 	"9" "Show Wallet logs" \
-	"10" "Set DeFi Home" 3>&1 1>&2 2>&3)
+	"10" "Set DeFi Home" \
+	"11" "Update DeFiNode" 3>&1 1>&2 2>&3)
 
 	RET=$?
 	if [ $RET -eq 1 ]; then
@@ -193,6 +213,7 @@ do_show_menu() {
 			8) do_08_show_defi_chain_logs ;;
 			9) do_09_show_defi_wallet_logs ;;
 			10) do_10_init_defihome ;;
+			11) do_11_update_images ;;
 			*) whiptail --msgbox "Programmer error: unrecognized option" 20 60 1 ;;
 		esac || whiptail --msgbox "There was an error running option $OPTION" 20 60 1
 	else
