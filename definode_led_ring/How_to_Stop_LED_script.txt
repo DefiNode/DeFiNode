@@ -12,3 +12,10 @@ sudo kill 4323
 #or
 
 sudo kill -9 4323
+
+
+#even better directly kill the script
+
+#Type in console:
+
+sudo pkill -9 -f /home/pi/definode/definode_led_ring/led_pink_circle.py
