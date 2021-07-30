@@ -1,0 +1,14 @@
+#Type in console:
+
+ps -ef | grep python
+
+
+#Find the pricess ID (fist number in the processe i.e. 4323)
+
+#Type in console:
+
+sudo kill 4323
+
+#or
+
+sudo kill -9 4323
