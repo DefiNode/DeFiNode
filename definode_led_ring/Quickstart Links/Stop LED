@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Stop LED
+Comment=Stop LED
+Icon=/usr/share/pixmaps/defiChainLogo1.png
+Exec=sudo pkill -9 python
+Type=Application
+Encoding=UTF-8
+Terminal=true
+Categories=None;
+StartupNotify=false
+Comment[de_CH]=DeFiNode LED ring
+Path=/home/pi/definode/definode_led_ring
+Name[en_GB]=Stop LED
