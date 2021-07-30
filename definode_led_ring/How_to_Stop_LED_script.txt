@@ -19,3 +19,9 @@ sudo kill -9 4323
 #Type in console:
 
 sudo pkill -9 -f /home/pi/definode/definode_led_ring/led_pink_circle.py
+
+
+#if everithig above does not work
+
+#Type in console:
+sudo pkill -9 python
