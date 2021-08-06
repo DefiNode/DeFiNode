@@ -1,6 +1,6 @@
 #!/bin/bash
 
-startTime = $(date +%s)
+startTime=$(date +%s)
 
 sudo curl -L https://raw.githubusercontent.com/DeFiCh/app/master/typings/snapshot.ts -O
 ADDRESS="$(cat snapshot.ts)| sed ':M;N;$!bM;s#\n# #g'"
@@ -16,7 +16,8 @@ cd defichain
 sudo curl -L $ADDRESS$SNAPSHOT > snapshot.zip
 sudo unzip snapshot.zip
 
-endTime = $(date +%s)
+endTime=$(date +%s)
+
 echo ""
 echo ""
 echo "***************************************************************************"
