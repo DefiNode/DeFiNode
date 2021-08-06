@@ -1,11 +1,7 @@
 #!/bin/bash
 
 ## Setup DeFiNode home directory
-STARTUP_DIR=$(dirname "$(realpath $0)")""
-echo "export DEFI_HOME=$STARTUP_DIR" > /etc/profile.d/defi-home.sh
-
-## setup wallet backup directory
-mkdir backup
+sudo sh 10_init_defihome.sh
 
 ## setup docker environment
 sudo apt-get update -y && sudo apt-get upgrade -y
@@ -23,7 +19,6 @@ cd ../desktop
 cp ./defiChainLogo1.png /usr/share/pixmaps
 cp ./defiChainLogo3.png /usr/share/pixmaps
 cp ./defiNodeMenuShortcut.desktop /home/pi/Desktop
+
 cd ../util
 cp ./startMainMenu.sh /home/pi
-
-sudo reboot

@@ -12,10 +12,9 @@ defiWalletEnd=$(date +%s)
 
 echo ""
 echo ""
-echo "*****************************************************"
-echo "***   Elapsed Build Time DeFi Chain:  " $((defiChainEnd-$defiChainStart)) " seconds"
-echo "***   Elapsed Build Time DeFi Wallet: " $((defiWalletEnd-$defiWalletStart)) " seconds"
-echo "*****************************************************"
+echo "***************************************************************************"
+echo "*   Elapsed Build Time DeFi Chain:  " $((defiChainEnd-$defiChainStart)) " seconds"
+echo "*   Elapsed Build Time DeFi Wallet: " $((defiWalletEnd-$defiWalletStart)) " seconds"
+echo "***************************************************************************"
 echo ""
 echo ""
-

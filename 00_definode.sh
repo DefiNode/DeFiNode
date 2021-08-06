@@ -1,36 +1,49 @@
 #!/bin/sh
 
-#########################################Var's########################################################
+######################################### Var's ########################################################
 IFCONFIG=$(ifconfig)
 
-#########################################Root check########################################################
+######################################### Root check ########################################################
 # Check if root
 if [ "$(whoami)" != "root" ]; then
         whiptail --msgbox "Sorry you are not root. You must type: sudo sh 00_definode.sh" 20 45 1
         exit
 fi
-#########################################Whiptail check########################################################
+######################################### Whiptail check ########################################################
 	if [ $(dpkg-query -W -f='${Status}' whiptail 2>/dev/null | grep -c "ok installed") -eq 1 ];
 then
         sleep 0
-
 else
 	apt-get install whiptail -y
 fi
 
 
-#########################################tools menu########################################################
+######################################### Tools menu ########################################################
 do_01_system_preparation() {
 	echo 01_system_preparation
 	sudo -E sh 01_system_preparation.sh
+
+	### wait for SPACE key pressed
+	hold=' '
+	echo "Press 'SPACE' to reboot Raspberry PI"
+	tty_state=$(stty -g)
+	stty -icanon
+	until [ -z "${hold#$in}" ] ; do
+	    in=$(dd bs=1 count=1 </dev/tty 2>/dev/null)
+	done
+	stty "$tty_state"
+	#####
+
+	sudo reboot
 }
 
 do_02_download_snapshot() {
 	echo 02_download_snapshot
 	sudo -E sh 02_download_snapshot.sh
+	
 	### wait for SPACE key pressed
 	hold=' '
-	echo "Press 'SPACE' to return to menu"
+	echo "Press 'SPACE' to return to main menu"
 	tty_state=$(stty -g)
 	stty -icanon
 	until [ -z "${hold#$in}" ] ; do
@@ -45,9 +58,10 @@ do_02_download_snapshot() {
 do_03_build_images() {
 	echo 03_build_images
 	sudo -E sh 03_build_images.sh
+	
 	### wait for SPACE key pressed
 	hold=' '
-	echo "Press 'SPACE' to return to menu"
+	echo "Press 'SPACE' to return to main menu"
 	tty_state=$(stty -g)
 	stty -icanon
 	until [ -z "${hold#$in}" ] ; do
@@ -67,12 +81,10 @@ do_04_run_definode() {
 do_05_stop_definode() {
 	echo 05_stop_definode
 	sudo -E sh 07_stop_definode.sh
+	
 	### wait for SPACE key pressed
 	hold=' '
-	echo""
-	echo""
-	echo "Press 'SPACE' to return to menu"
-	echo""
+	echo "Press 'SPACE' to return to main menu"
 	tty_state=$(stty -g)
 	stty -icanon
 	until [ -z "${hold#$in}" ] ; do
@@ -87,12 +99,10 @@ do_05_stop_definode() {
 do_06_repair_definode() {
 	echo 06_repair_definode
 	sudo -E sh 08_repair_definode.sh
+	
 	### wait for SPACE key pressed
 	hold=' '
-	echo""
-	echo""
-	echo "Press 'SPACE' to return to menu"
-	echo""
+	echo "Press 'SPACE' to return to main menu"
 	tty_state=$(stty -g)
 	stty -icanon
 	until [ -z "${hold#$in}" ] ; do
@@ -107,12 +117,10 @@ do_06_repair_definode() {
 do_07_backup_defiwallet() {
 	echo 07_backup_defiwallet
 	sudo -E sh 09_backup_defiwallet.sh
+	
 	### wait for SPACE key pressed
 	hold=' '
-	echo""
-	echo""
 	echo "Press 'SPACE' to return to menu"
-	echo""
 	tty_state=$(stty -g)
 	stty -icanon
 	until [ -z "${hold#$in}" ] ; do
@@ -137,25 +145,17 @@ do_09_show_defi_wallet_logs() {
 do_10_init_defihome() {
 	echo 10_init_defihome
 	sudo -E sh 10_init_defihome.sh
+
 	### wait for SPACE key pressed
 	hold=' '
-	echo""
-	echo""
-	echo "********************************************************************************"
-	echo "DeFi Home is now set to: "$(dirname "$(realpath $0)")
-	echo "                                                                                "
-	echo "For the changes to the DeFi Home directory to take effect, please log out and in"
-	echo "again."
-	echo "********************************************************************************"
-	echo""
-	echo "Press 'SPACE' to go on"
+	echo "Press 'SPACE' to return to the terminal"
 	tty_state=$(stty -g)
 	stty -icanon
 	until [ -z "${hold#$in}" ] ; do
 	    in=$(dd bs=1 count=1 </dev/tty 2>/dev/null)
 	done
 	stty "$tty_state"
-	#####
+	#####	
 }
 
 do_11_update_images() {
@@ -163,9 +163,10 @@ do_11_update_images() {
 	sudo -E sh 11_update_images.sh
 	sudo -E sh 07_stop_definode.sh
 	sudo -E sh 04_run_definode.sh
+	
 	### wait for SPACE key pressed
 	hold=' '
-	echo "Press 'SPACE' to return to menu"
+	echo "Press 'SPACE' to return to main menu"
 	tty_state=$(stty -g)
 	stty -icanon
 	until [ -z "${hold#$in}" ] ; do
@@ -177,14 +178,23 @@ do_11_update_images() {
 	do_show_menu
 }
 
+do_12_create_shortcuts() {
+	echo 12_create_shortcuts
+	sudo -E sh 12_create_shortcuts.sh
+	
+	do_show_menu
+}
+
 do_finish() {
-	echo Goodbye
+	echo "Goodbye"
 }
 
 #########################################Start########################################################
 
 do_show_menu() {
-	OPTION=$(whiptail --title "DeFiNode: "$(dirname "$(realpath $0)") --menu "Choose your option" 20 60 10 \
+	OPTION=$(whiptail --title "DeFiNode" --menu "Choose your option:" 22 70 14 \
+	""  "DeFi home: '"$DEFI_HOME"'" \
+	""  "*********************************" \
 	"1" "System preparation with reboot" \
 	"2" "Download Snapshot (5 min)" \
 	"3" "Build chain and app (2.5 hours)" \
@@ -192,11 +202,11 @@ do_show_menu() {
 	"5" "Stop DeFi Node" \
 	"6" "Repair DeFi Node" \
 	"7" "Backup DeFi Wallet" \
-	""  "=================================" \
 	"8" "Show Defi Chain logs" \
 	"9" "Show Wallet logs" \
 	"10" "Set DeFi Home" \
-	"11" "Update DeFiNode" 3>&1 1>&2 2>&3)
+	"11" "Update DeFiNode" \
+	"12" "Create Shortcuts" 3>&1 1>&2 2>&3)
 
 	RET=$?
 	if [ $RET -eq 1 ]; then
@@ -214,13 +224,12 @@ do_show_menu() {
 			9) do_09_show_defi_wallet_logs ;;
 			10) do_10_init_defihome ;;
 			11) do_11_update_images ;;
+			12) do_12_create_shortcuts ;;
 			*) whiptail --msgbox "Programmer error: unrecognized option" 20 60 1 ;;
-		esac || whiptail --msgbox "There was an error running option $OPTION" 20 60 1
+		esac
 	else
 		exit 1
 	fi
 }
 
 do_show_menu
-
-

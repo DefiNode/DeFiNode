@@ -246,7 +246,7 @@ Now you can connect to it any time from any device and mage it conveniently.
 * Enter: this command and press ENTER
 
 ```
-git clone http://github.com/definode/definode && cd definode && sudo sh definode.sh
+git clone http://github.com/definode/definode && cd definode && sudo sh setup-build-definode.sh
 ```
 
 🎇 #Watch the magic happening (for ~3h) 🎇
