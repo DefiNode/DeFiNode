@@ -9,6 +9,7 @@ sudo -E sh 02_download_snapshot.sh
 sudo -E sh 03_build_images.sh
 
 defiSetupBuildEnd=$(date +%s)
+sudo -E sh 04_run_definode.sh
 
 echo ""
 echo ""

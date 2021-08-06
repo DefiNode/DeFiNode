@@ -21,7 +21,7 @@ else
 
 	echo ""
 	echo "***************************************************************************"
-	echo "To disply the DeFi Wallet, activate desktop shortcut 'DeFi Wallet'"
+	echo "To display the DeFi Wallet, activate desktop shortcut 'DeFi Wallet'"
 	echo "***************************************************************************"
 	echo ""
 fi
