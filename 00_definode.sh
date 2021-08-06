@@ -185,6 +185,24 @@ do_12_create_shortcuts() {
 	do_show_menu
 }
 
+do_13_update_defi_scripts() {
+	echo 13_update_defi_scripts
+	sudo -E sh 13_update_defi_scripts.sh
+	
+	### wait for SPACE key pressed
+	hold=' '
+	echo "Press 'SPACE' to return to main menu"
+	tty_state=$(stty -g)
+	stty -icanon
+	until [ -z "${hold#$in}" ] ; do
+	    in=$(dd bs=1 count=1 </dev/tty 2>/dev/null)
+	done
+	stty "$tty_state"
+	#####
+	
+	do_show_menu
+}
+
 do_finish() {
 	echo "Goodbye"
 }
@@ -206,7 +224,8 @@ do_show_menu() {
 	"9" "Show Wallet logs" \
 	"10" "Set DeFi Home" \
 	"11" "Update DeFiNode" \
-	"12" "Create Shortcuts" 3>&1 1>&2 2>&3)
+	"12" "Create Shortcuts" \
+	"13" "Update DeFi scripts from github" 3>&1 1>&2 2>&3)
 
 	RET=$?
 	if [ $RET -eq 1 ]; then
@@ -225,6 +244,7 @@ do_show_menu() {
 			10) do_10_init_defihome ;;
 			11) do_11_update_images ;;
 			12) do_12_create_shortcuts ;;
+			13) do_13_update_defi_scripts ;;
 			*) whiptail --msgbox "Programmer error: unrecognized option" 20 60 1 ;;
 		esac
 	else
