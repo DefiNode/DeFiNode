@@ -210,7 +210,7 @@ do_finish() {
 #########################################Start########################################################
 
 do_show_menu() {
-	OPTION=$(whiptail --title "DeFiNode" --menu "Choose your option:" 22 70 14 \
+	OPTION=$(whiptail --title "DeFiNode" --menu "Choose your option:" 23 60 15 \
 	""  "DeFi home: '"$DEFI_HOME"'" \
 	""  "*********************************" \
 	"1" "System preparation with reboot" \
@@ -225,7 +225,7 @@ do_show_menu() {
 	"10" "Set DeFi Home" \
 	"11" "Update DeFiNode" \
 	"12" "Create Shortcuts" \
-	"13" "Update DeFi scripts from github" 3>&1 1>&2 2>&3)
+	"13" "Update DeFi scripts from GitHub" 3>&1 1>&2 2>&3)
 
 	RET=$?
 	if [ $RET -eq 1 ]; then

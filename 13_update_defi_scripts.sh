@@ -21,7 +21,6 @@ else
 	cd definode
 	cp -p ./*.sh $DEFI_HOME
 	
-
 	cd $DEFI_HOME
 	sudo chown pi ./*.sh
 	sudo rm -r .temp
@@ -30,6 +29,6 @@ fi
 echo ""
 echo ""
 echo "***************************************************************************"
-echo "* All DeFi scripts has been updated from the github."
+echo "* All DeFi scripts has been updated from the GitHub."
 echo "***************************************************************************"
 echo""
