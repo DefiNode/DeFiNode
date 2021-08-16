@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=DeFi-Node-Autostart
+Comment=RaspberryPI DeFi Node Main Menu
+Exec=lxterminal -t "RaspberryPI DeFi Node" -e sudo -E sh check-DeFiWallet.sh
+Type=Application
+Encoding=UTF-8
+Terminal=false
+Categories=None;
+StartupNotify=true
+Comment[de_CH]=RaspberryPI DeFi Node
+Path=$HOME

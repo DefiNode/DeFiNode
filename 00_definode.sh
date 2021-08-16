@@ -225,7 +225,7 @@ do_show_menu() {
 	"10" "Set DeFi Home" \
 	"11" "Update DeFiNode" \
 	"12" "Create Shortcuts" \
-	"13" "Update DeFi scripts from GitHub" 3>&1 1>&2 2>&3)
+	"13" "Update DeFi sources from GitHub" 3>&1 1>&2 2>&3)
 
 	RET=$?
 	if [ $RET -eq 1 ]; then
