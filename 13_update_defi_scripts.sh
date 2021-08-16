@@ -12,17 +12,19 @@ if [ -z ${DEFI_HOME+x} ]; then
 	echo "***************************************************************************"
 	echo ""
 else
-	if [ -d $DEFI_HOME"/.temp" ]; then
-		rm -r $DEFI_HOME"/.temp"
+	if [ -d /home/pi/.temp ]; then
+		rm -r /home/pi/.temp
 	fi
-	mkdir $DEFI_HOME"/.temp"
-	cd $DEFI_HOME"/.temp"
+	mkdir /home/pi/.temp
+	cd /home/pi/.temp
 	git clone http://github.com/definode/definode
 	cd definode
-	cp -p ./*.sh $DEFI_HOME
+	cp -p -r ./* $DEFI_HOME
 	
 	cd $DEFI_HOME
-	sudo chown pi ./*.sh
+	sudo chown -R pi ./*
+
+	cd /home/pi
 	sudo rm -r .temp
 fi
 
