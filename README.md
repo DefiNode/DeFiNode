@@ -21,6 +21,9 @@
 **[B. Tools needed](https://github.com/DefiNode/DeFiNode/blob/main/README.md#b-tools-needed)**
 
 **[C. DeFi Node Installation](https://github.com/DefiNode/DeFiNode/blob/main/README.md#c-defi-node-installation)**
+  - **DeFi Raspberry PI Image**
+  - **DeFi AppImage**
+  - **DeFi Main Menu (bash scripts)**
 
 **[1. Basic Raspberry Pi setup](https://github.com/DefiNode/DeFiNode/blob/main/README.md#1-basic-raspberry-pi-setup)**
   - **OS installation**
