@@ -61,7 +61,9 @@
 **[5.	FAQ and Trouble shooting guide](https://github.com/DefiNode/DeFiNode/blob/main/README.md#5faq-and-trouble-shooting-guide)**
 
 
-### A. Basic Amazon Shopping List 
+# Basic Shopping List
+
+## A. Amazon Shopping List (en) 
 
 *Please try to use the exact hardware models that are recommended in the shopping lists. A monitor and mouse keyboard are needed for the initial setup. Estimated cost around 100-150 USD - based on shops and location.*
 
@@ -84,7 +86,7 @@
 * Bonus:
   - [x] 12 x LED Ring [amazon link](https://www.amazon.com/-/de/dp/B08XQLVDMT/ref=sr_1_1?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=led+ring+12+bit&qid=1626862358&sr=8-1)
 
-### :de: A. German Basic Amazon Shopping List :sweat_smile: :de:
+## :de: A. German Basic Amazon Shopping List :sweat_smile: :de:
 
   - [x] Raspberry 4 4GB (or 8GB) [amazon link](https://www.amazon.de/Raspberry-Pi-ARM-Cortex-A72-Bluetooth-Micro-HDMI/dp/B07TC2BK1X)
   - [x] Power Supply EU - USB-C, 5V, >=3A [amazon link](https://www.amazon.de/Jun_Electronic-Ladegerät-Netzteil-Schalter-Raspberry/dp/B07TYYV8GF/)
@@ -102,18 +104,22 @@
 * Bonus:
   - [x] 12 x LED Ring [amazon link](https://www.amazon.de/gp/product/B07SPL2YC1/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1)
 
-### B. Tools needed:
+# B. Tools needed:
   - [x] Cutter to clean the 3D Prints
   - [x] Scissors to cut the Fan Filters
   - [x] Big screw driver or a 5ct coin to open the case gain if needed
   - [x] Bonus: Soldering iron only for LED Ring (everything can run without the LED Ring)
 
-### C. DeFi Node Installation
+
+# C. DeFi Node Installation
 
 There are three ways to set up a DeFiNode:
  - [x] Using Daniel's RaspberryPI Image provided on [Google Drive](https://drive.google.com/drive/folders/1yGWeP8gqt5JNypeeJTZ-0aqh-k04m7Jj?usp=sharing) and the [RaspberryPI Imager](https://www.raspberrypi.org/software/). Required installation time about 10Min. The DeFi wallet is displayed in a browser on port 5000.
  - [x] Using Martin's DeFi Wallet [AppImage](https://github.com/Martin8617/Defi-Wallet-for-Raspberry-Pi). Required installation time about 10Min. The DeFi wallet is an App on the Raspberry PI.
- - [x] The trational and proven way of Markus with the help of the DeFi main menu and the different bash scripts (see top of page).
+ - [x] The trational, proven and purist way of Markus with the help of the DeFi main menu and the different bash scripts (see top of page). Required installation time about 2.5 hours. The DeFi wallet is displayed in a browser on port 5000.
+
+
+
 
 # ✨ LFG!
 
