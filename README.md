@@ -21,9 +21,9 @@
 **[B. Tools needed](https://github.com/DefiNode/DeFiNode/blob/main/README.md#b-tools-needed)**
 
 **[C. DeFi Node Software Installation](https://github.com/DefiNode/DeFiNode/blob/main/README.md#c-defi-node-software-installation)**
+  - **DeFi Main Menu (bash scripts)**
   - **DeFi Raspberry PI Image**
   - **DeFi AppImage**
-  - **DeFi Main Menu (bash scripts)**
 
 **[1. Basic Raspberry Pi setup](https://github.com/DefiNode/DeFiNode/blob/main/README.md#1-basic-raspberry-pi-setup)**
   - **OS installation**
@@ -117,7 +117,7 @@
 # C. DeFi Node Software Installation
 
 There are three ways to set up a DeFi Node:
-  - [x] The trational, proven and purist way of Markus with the help of the DeFi main menu and the different bash scripts (see top of page). Required installation time about 2.5 hours. The DeFi wallet is displayed in a browser on port 5000.
+  - [x] Markus' trational, proven and purist way with the help of the DeFi main menu and the different bash scripts (see top of page). Required installation time about 2.5 hours. The DeFi wallet is displayed in a browser on port 5000.
   - [x] Using Daniel's RaspberryPI Image provided on [Google Drive](https://drive.google.com/drive/folders/1yGWeP8gqt5JNypeeJTZ-0aqh-k04m7Jj?usp=sharing) and the [RaspberryPI Imager](https://www.raspberrypi.org/software/). Required installation time about 10Min. The DeFi wallet is displayed in a browser on port 5000.
  - [x] Using Martin's DeFi Wallet [AppImage](https://github.com/Martin8617/Defi-Wallet-for-Raspberry-Pi). Required installation time about 10Min. The DeFi wallet is an App on the Raspberry PI.
 
