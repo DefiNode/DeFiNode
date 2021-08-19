@@ -111,9 +111,9 @@
 ### C. DeFi Node Installation
 
 There are three ways to set up a DeFiNode:
- - [x] Using RaspberryPI Image provided on [Google Drive](https://drive.google.com/drive/folders/1yGWeP8gqt5JNypeeJTZ-0aqh-k04m7Jj?usp=sharing) and the [RaspberryPI Imager](https://www.raspberrypi.org/software/)
- - [ ] Using Martin's [AppImage](github.com/Martin8617/Defi-Wallet-for-Raspberry-Pi). Now you can download and use the AppImage.
- - [ ] Der Self-made-Weg über die verschiedenen GitHub Scripte
+ - [x] Using Daniel's RaspberryPI Image provided on [Google Drive](https://drive.google.com/drive/folders/1yGWeP8gqt5JNypeeJTZ-0aqh-k04m7Jj?usp=sharing) and the [RaspberryPI Imager](https://www.raspberrypi.org/software/). Required installation time about 10Min. The DeFi wallet is displayed in a browser on port 5000.
+ - [x] Using Martin's DeFi Wallet [AppImage](https://github.com/Martin8617/Defi-Wallet-for-Raspberry-Pi). Required installation time about 10Min. The DeFi wallet is an App on the Raspberry PI.
+ - [x] The trational and proven way of Markus with the help of the DeFi main menu and the different bash scripts (see top of page).
 
 # ✨ LFG!
 
