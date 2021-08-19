@@ -20,7 +20,7 @@
 
 **[B. Tools needed](https://github.com/DefiNode/DeFiNode/blob/main/README.md#b-tools-needed)**
 
-**[C. DeFi Node Installation](https://github.com/DefiNode/DeFiNode/blob/main/README.md#c-defi-node-installation)**
+**[C. Setup a DeFi Node](https://github.com/DefiNode/DeFiNode/blob/main/README.md#c-defi-node-setup)**
   - **DeFi Raspberry PI Image**
   - **DeFi AppImage**
   - **DeFi Main Menu (bash scripts)**
@@ -114,7 +114,7 @@
   - [x] Bonus: Soldering iron only for LED Ring (everything can run without the LED Ring)
 
 
-# C. DeFi Node Installation
+# C. DeFi Node Setup
 
 There are three ways to set up a DeFi Node:
   - [x] The trational, proven and purist way of Markus with the help of the DeFi main menu and the different bash scripts (see top of page). Required installation time about 2.5 hours. The DeFi wallet is displayed in a browser on port 5000.
