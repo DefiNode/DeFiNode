@@ -20,6 +20,8 @@
 
 **[B. Tools needed](https://github.com/DefiNode/DeFiNode/blob/main/README.md#b-tools-needed)**
 
+**[C. DeFi Node Installation](https://github.com/DefiNode/DeFiNode/blob/main/README.md#c-defi-node-installation)**
+
 **[1. Basic Raspberry Pi setup](https://github.com/DefiNode/DeFiNode/blob/main/README.md#1-basic-raspberry-pi-setup)**
   - **OS installation**
   - **Add coolers**
