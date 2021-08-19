@@ -108,6 +108,13 @@
   - [x] Big screw driver or a 5ct coin to open the case gain if needed
   - [x] Bonus: Soldering iron only for LED Ring (everything can run without the LED Ring)
 
+### C. DeFi Node Installation
+
+There are three ways to set up a DeFiNode:
+ - [x] Using RaspberryPI Image provided on [Google Drive](https://drive.google.com/drive/folders/1yGWeP8gqt5JNypeeJTZ-0aqh-k04m7Jj?usp=sharing) and the [RaspberryPI Imager](https://www.raspberrypi.org/software/)
+ - [ ] Using Martin's [AppImage](github.com/Martin8617/Defi-Wallet-for-Raspberry-Pi). Now you can download and use the AppImage.
+ - [ ] Der Self-made-Weg über die verschiedenen GitHub Scripte
+
 # ✨ LFG!
 
 # 1. Basic Raspberry Pi setup
