@@ -44,6 +44,7 @@
   - **Slice files (Tips with Raft)**
   - **Print and Material (PLA)**
   - **Clean up and Test print**
+  - **NEW! Order your DefiNode case online**
   
 **[3.	Custom Case assembly](https://github.com/DefiNode/DeFiNode/blob/main/README.md#3custom-case-assembly)**
   - **Put Raspberry into case**
@@ -325,6 +326,10 @@ Add support where the slicer recommends
 After the print, clean everything very good and remove the support.
 
 ![20210713_104737_cr](https://user-images.githubusercontent.com/84664789/126632310-9e531a07-1a86-43e2-94cf-b3cc5d04ddb6.jpg)
+
+## NEW! Order your DefiNode case online
+
+Check out the new printing service by Gabriel Kunzer https://www.gabrielkunzer.com/definode/. You can order your case in many colors! Great service! 🔥
 
 # 3.	Custom Case assembly
 
