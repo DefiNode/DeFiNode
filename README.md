@@ -3,6 +3,15 @@
 
 ![Title](https://user-images.githubusercontent.com/84664789/126639893-752b7687-eae5-424a-b35c-df782da80133.png)
 
+# Online resources 
+
+**[Telegram Group](https://t.me/DeFi_Node)**
+
+**[Raspberry-Pi - DeFiChain-Wiki](https://defichain-wiki.com/wiki/App_auf_Raspberry-Pi)**
+
+**[DeFined designd - DeFiChain printing service](https://www.gabrielkunzer.com/en/definode/)**
+ 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **The DeFiNode is a do-it-yourself DeFiChain full node DeFiChain original source code. No code will be altered during installation and will 100% taken from the DeFiChain repository.**
 
