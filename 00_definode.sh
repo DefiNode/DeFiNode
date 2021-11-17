@@ -223,9 +223,9 @@ do_show_menu() {
 	"8" "Show Defi Chain logs" \
 	"9" "Show Wallet logs" \
 	"10" "Set DeFi Home" \
-	"11" "Update DeFiNode" \
+	"11" "Update DeFiNode and DeFiWallet" \
 	"12" "Create Shortcuts" \
-	"13" "Update DeFi sources from GitHub" 3>&1 1>&2 2>&3)
+	"13" "Update DeFi scripts from GitHub" 3>&1 1>&2 2>&3)
 
 	RET=$?
 	if [ $RET -eq 1 ]; then
