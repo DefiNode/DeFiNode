@@ -5,14 +5,16 @@ sudo sh 10_init_defihome.sh
 
 ## setup docker environment
 sudo apt-get update -y && sudo apt-get upgrade -y
-mkdir docker
-cd docker
-curl -fsSL https://get.docker.com -o get-docker.sh
-sudo sh get-docker.sh
-sudo usermod -aG docker pi
+sudo apt install docker.io docker-compose rootlesskit docker-registry
 
-wget http://ftp.de.debian.org/debian/pool/main/libs/libseccomp/libseccomp2_2.5.1-1_armhf.deb
-sudo dpkg -i libseccomp2_2.5.1-1_armhf.deb
+#mkdir docker
+#cd docker
+#curl -fsSL https://get.docker.com -o get-docker.sh
+#sudo sh get-docker.sh
+#sudo usermod -aG docker pi
+
+#wget http://ftp.de.debian.org/debian/pool/main/libs/libseccomp/libseccomp2_2.5.1-1_armhf.deb
+#sudo dpkg -i libseccomp2_2.5.1-1_armhf.deb
 
 ## Setup Shortcuts
 cd ../desktop
