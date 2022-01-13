@@ -1,6 +1,6 @@
 #Special thanks to wakago749. Great benefit for the community.
 
-FROM node:current as builder
+FROM node:16 as builder
 
 ARG BUILD_VERSION
 
