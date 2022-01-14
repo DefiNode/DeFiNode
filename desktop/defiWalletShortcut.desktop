@@ -2,7 +2,7 @@
 Name=DeFi Wallet
 Comment=start DeFi Wallet in browser
 Icon=/usr/share/pixmaps/defiChainLogo1.png
-Exec=chromium-browser http://localhost:5000
+Exec=chromium-browser http://localhost:5050
 Type=Application
 Encoding=UTF-8
 Terminal=false

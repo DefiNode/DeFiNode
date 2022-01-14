@@ -45,6 +45,6 @@ COPY default.conf.template /etc/nginx/templates/
 COPY 00-base64encode-rpcauth.sh /docker-entrypoint.d/
 RUN chmod 775 /docker-entrypoint.d/00-base64encode-rpcauth.sh
 
-# Port 5000 is the webapp, port 5001 is the reverse proxy for calls to the node
-EXPOSE 5000/tcp
+# Port 5050 is the webapp, port 5001 is the reverse proxy for calls to the node
+EXPOSE 5050/tcp
 EXPOSE 5001/tcp
