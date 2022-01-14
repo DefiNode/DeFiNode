@@ -127,8 +127,8 @@
 # C. DeFi Node Software Installation
 
 There are three ways to set up a DeFi Node:
-  - [x] Markus' trational, proven and purist way with the help of the DeFi main menu and the different bash scripts (see top of page). Required installation time about 2.5 hours. The DeFi wallet is displayed in a browser on port 5000.
-  - [x] Using Daniel's RaspberryPI Image provided on [Google Drive](https://drive.google.com/drive/folders/1yGWeP8gqt5JNypeeJTZ-0aqh-k04m7Jj?usp=sharing) and the [RaspberryPI Imager](https://www.raspberrypi.org/software/). Required installation time about 10Min. The DeFi wallet is displayed in a browser on port 5000.
+  - [x] Markus' trational, proven and purist way with the help of the DeFi main menu and the different bash scripts (see top of page). Required installation time about 2.5 hours. The DeFi wallet is displayed in a browser on port 5050.
+  - [x] Using Daniel's RaspberryPI Image provided on [Google Drive](https://drive.google.com/drive/folders/1yGWeP8gqt5JNypeeJTZ-0aqh-k04m7Jj?usp=sharing) and the [RaspberryPI Imager](https://www.raspberrypi.org/software/). Required installation time about 10Min. The DeFi wallet is displayed in a browser on port 5050.
  - [x] Using Martin's DeFi Wallet [AppImage](https://github.com/Martin8617/Defi-Wallet-for-Raspberry-Pi). Required installation time about 10Min. The DeFi wallet is an App on the Raspberry PI.
 
 
@@ -228,7 +228,7 @@ Write down your the local IP Address by moving the mouse cursor on the connectio
 
 ##	(Optional) Change hostname to “definode” with “sudo raspi-config”
 
-Standard hostname is  ```raspberrypi```. You can change the name to ```definode``` to be able to enter the wallet in your browser with ```http:\\definode:5000``` instead with ```http:\\raspberrypi:5000```
+Standard hostname is  ```raspberrypi```. You can change the name to ```definode``` to be able to enter the wallet in your browser with ```http:\\definode:5050``` instead with ```http:\\raspberrypi:5050```
 
 * Open terminal
 * Enter ```sudo raspi-config```
@@ -291,11 +291,11 @@ There may be some orange messages appear in the terminal, but this is nothing to
 
 ## First Wallet usage and test
 
-When everything is finished and running you will get the message "Please open your browser http://localhost:5000" in the terminal
+When everything is finished and running you will get the message "Please open your browser http://localhost:5050" in the terminal
 
-* Open the chromium browser on your DeFiNode and enter http://localhost:5000 -> press enter
+* Open the chromium browser on your DeFiNode and enter http://localhost:5050 -> press enter
 
-* You can also use your PC/Mac/Mobile phone browser (when in same LAN) and enter the IP Address (or hostname) + Port to remote control the Node from other devices. I.e. ```192.168.0.236:5000``` or ```http:\\definode:5000``` -> press enter. You can bookmark this in your browser.
+* You can also use your PC/Mac/Mobile phone browser (when in same LAN) and enter the IP Address (or hostname) + Port to remote control the Node from other devices. I.e. ```192.168.0.236:5050``` or ```http:\\definode:5050``` -> press enter. You can bookmark this in your browser.
 
 For advanced use, like backup / restore wallet, master nodes, blockchain explorer... please check the FAQ and troubleshooting guide below.
 
