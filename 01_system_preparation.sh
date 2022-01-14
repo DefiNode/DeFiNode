@@ -5,7 +5,7 @@ sudo sh 10_init_defihome.sh
 
 ## setup docker environment
 sudo apt-get update -y && sudo apt-get upgrade -y
-sudo apt install docker.io docker-compose rootlesskit docker-registry
+sudo apt install docker.io docker-compose rootlesskit docker-registry -y
 
 #mkdir docker
 #cd docker
