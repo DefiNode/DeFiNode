@@ -11,7 +11,7 @@ RUN mkdir -p /usr/src/defich && \
  cd /usr/src/defich && \
  curl -L https://github.com/DeFiCh/app/archive/v$(cat ~/.wallet_version).tar.gz > app.tar.gz && \
  tar xvzf app.tar.gz && \ 
- mv /usr/src/defich/app-$(cat ~/.wallet_version) /home/node/app
+ mv /usr/src/defich/defichain-app-$(cat ~/.wallet_version) /home/node/app
 
 WORKDIR /home/node/app
 RUN npm run init
